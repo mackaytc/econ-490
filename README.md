@@ -1,6 +1,8 @@
 # ECON 490 Course Material
 
-This repository contains course materials for ECON 490 Economics Capstone at Cal State Fullerton (Spring 2026). Materials include lecture slides, R coding activities, and readings covering econometrics, data analysis, and applied economics topics including housing, transportation, minimum wages, and crime. Each week, I'll post links for lecture slides and R coding-related material below.
+This repository contains course materials for ECON 490 Economics Capstone at Cal State Fullerton (Spring 2026). Materials include lecture slides, R coding activities, and readings covering econometrics, data analysis, and applied economics topics including housing, transportation, minimum wages, and crime. You can find a link for the [syllabus here](https://github.com/mackaytc/econ-490/blob/main/ECON%20490%20Syllabus%20-%20Spring%202026.md).
+
+Each week, I'll post links for lecture slides and R coding-related material below. Coding activities and other homework assignments should be submitted via Canvas.
 
 ## Week 2: _Week of Monday (1/26)_
 
