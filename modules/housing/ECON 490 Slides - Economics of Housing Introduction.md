@@ -166,8 +166,9 @@ The assigned journal article covers:
 <br> 
 
 **Homework:** Read the Glaeser and Gyourko article, specifically: 
-- Introduction section (first 3 pages) laying out general questions/analysis - "Variations in Regulations on Land Use and Building" and "A Closer Look at Three Types of Markets" sections
-- You should be able to characterize/say how a demand shift affects prices in each of the 3 types of markets
+- Introduction section (first 3 pages) laying out general questions/analysis
+- "Variations in Regulations on Land Use and Building" and "A Closer Look at Three Types of Markets" sections
+- You should be able to describe how demand shifts affects prices in each market type
 
 ---
 
