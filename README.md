@@ -4,6 +4,14 @@ This repository contains course materials for ECON 490 Economics Capstone at Cal
 
 Each week, I'll post links for lecture slides and R coding-related material below. Coding activities and other homework assignments should be submitted via Canvas.
 
+## Week 4: _Week of Monday (2/9)_
+
+**Topics:** Regression review (cont.); economics of housing
+
+- [Regression Review Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%202.pdf)
+- [Glaeser and Gyourko (2018) Paper Slides](modules/housing/ECON%20490%20Paper%20Slides%20-%20Glaeser%20and%20Gyourko%20(2018).pdf)
+- [Coding Activity 3](coding-activities/ECON-490-Coding-Activity-3.R) - Homework due next week (submit via Canvas)
+
 ## Week 3: _Week of Monday (2/2)_
 
 **Topics:** Regression review; economics of housing
