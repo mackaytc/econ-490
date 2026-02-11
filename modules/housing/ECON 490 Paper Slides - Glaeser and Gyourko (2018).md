@@ -38,9 +38,9 @@ Paper provides:
 
 ---
 
-## The Framework: Tobin's $q$ for Housing
+## Tobin's $q$ for Housing
 
-Intuitively, measure value of assets relative to replacement cost
+Intuitively, measure value of assets relative to replacement cost:
 
 <br>
 
@@ -79,9 +79,9 @@ $$\text{P/MPPC} \approx 1$$
 
 <br>
 
-Prices should hover around the cost of building new units. 
+Prices should hover around the cost of building new units
 
-- If they exceed that, builders enter, supply increases, prices fall back.
+- If they exceed that, builders enter, supply increases, prices fall back
 - If P/MPPC stays well above 1 for years, supply is constrained
 
 ---
@@ -90,7 +90,7 @@ Prices should hover around the cost of building new units.
 
 National data from 2013 show ~74% of U.S. homes are priced at or below MPPC
 - These are "cheap" markets where building isn't constrained
-- But expensive markets are *really* expensive
+- Some markets, however, have higher P/MPPC ratios
 
 | Metro Area | P/MPPC Ratio |
 |------------|--------------|
@@ -102,23 +102,25 @@ National data from 2013 show ~74% of U.S. homes are priced at or below MPPC
 
 ## 3 Types of Housing Markets
 
+Glaeser and Gyourko define 3 types of housing markets
+- We can map this classification to ranges of P/MPPC values
+
+<br>
+
 | Market Type | Example | P/MPPC | What's Happening |
 |-------------|---------|--------|------------------|
 | Declining | Detroit | < 1 | Prices below construction cost |
-| Elastic | Houston | ≈ 1 | Supply responds to demand |
+| Elastic | Atlanta | ≈ 1 | Supply responds to demand |
 | Inelastic | San Francisco | >> 1 | Regulation blocks supply |
 
 ---
 
-<!-- _class: orange -->
-
-## The California Pattern
+## California as a Special Case
 
 Coastal metros — especially California — dominate the high P/MPPC list 
 
 What constrains supply?
 - **Zoning**: Density limits, single-family requirements
-- **CEQA**: Environmental review for virtually any project
 - **Local Permitting**: Slow, expensive, uncertain
 - **Community opposition**: NIMBYism
 
@@ -136,6 +138,25 @@ The regulatory tax is the implicit cost of all the barriers to building
 - MPPC = $281,690 (construction + imputed land + 17% profit margin)
 - Market price = $800,000
 - The "regulatory tax" ≈ $518K
+
+---
+
+## A Caveat
+
+The authors note that the optimal tax on housing construction is **positive**
+- Don't we want more housing?!
+- In Orange County, yes, we should be building more
+
+<br>
+
+In general, however, construction imposes negative externalities 
+- Traffic disruption, noise, etc. during building
+- Changes to built environment and service demand in longer run
+- In principle, tax on building gets producers to internalize these costs
+
+<br>
+
+Paper argues that implicit regulatory tax is much larger than likely value of these negative externalities
 
 ---
 
@@ -168,12 +189,13 @@ High housing costs hurt the whole economy, not just individuals
 
 The paper cites research estimating GDP losses from housing constraints:
 
-- **Hsieh and Moretti (2017):** 2-9% of GDP lost due to spatial misallocation
+- **Hsieh and Moretti (2017):** 9% of GDP lost due to spatial misallocation
 - That's potentially **trillions of dollars** in foregone output
 
 <br>
 
-Wide range reflects different assumptions about labor demand elasticity, but even the low end is enormous
+Glaeser and Gyourko report a range of estimated losses
+- Reflects different assumptions about labor demand elasticity, but even the low end is very large
 - Housing regulation in a handful of cities may cost the entire country several percentage points of GDP
 
 ---
@@ -192,7 +214,7 @@ What would happen?
 
 ---
 
-## Why Don't We Just Fix This?
+## Barriers to Construction
 
 If restricted supply is so costly, why not just allow more building?
 
@@ -219,13 +241,11 @@ If restricted supply is so costly, why not just allow more building?
 ## Key Takeaways
 
 1. **P/MPPC ratios** measure whether prices exceed construction costs = a sign of supply constraints
+  - Most U.S. housing is priced near construction cost; the expensive markets are outliers
+  - **Coastal metros, especially California,** dominate the high P/MPPC list; regulation is the key factor
 
-2. Most U.S. housing is priced near construction cost; the expensive markets are outliers
+2. **Large economic costs** from supply restrictions (inequality, labor misallocation, lower GDP)
 
-3. **Coastal metros, especially California,** dominate the high P/MPPC list; regulation is the key factor
+3. Authors argue **implicit tax exceeds reasonable externality costs**, but note the evidence is suggestive and the optimal tax on building is positive, not zero
 
-4. **Large economic costs** from supply restrictions (inequality, labor misallocation, lower GDP)
-
-5. Authors argue implicit tax exceeds reasonable externality costs, but note the evidence is suggestive and the optimal tax on building is positive, not zero
-
-6. **Political economy** makes reform difficult
+4. **Political economy** makes reform difficult
