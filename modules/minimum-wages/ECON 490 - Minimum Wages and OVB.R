@@ -13,9 +13,6 @@
 # of the Minimum Wage" by Alan Manning (2021) - our primary reading for the
 # minimum wages module.
 
-# When you're finished, save a copy of your code with your name in the file
-# name and upload it to Canvas.
-
 ################################################################################
 # Setup
 ################################################################################
@@ -227,6 +224,3 @@ cor(national.data$teen.emp.rate, national.data$min.wage)
 ################################################################################
 # End of Activity
 ################################################################################
-
-# Save this file with your name in the file name, and upload your .R code
-# file to Canvas.
