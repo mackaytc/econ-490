@@ -10,7 +10,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 - [OVB and Causal Inference Slides](slides/ECON%20490%20Metrics%20Slides%20-%20OVB%20and%20Causal%20Inference.pdf)
 - [The Elusive Employment Effect of the Minimum Wage (Manning 2021)](modules/minimum-wages/The%20Elusive%20Employment%20Effect%20of%20the%20Minimum%20Wage%20(Manning%202021).pdf)
-  - Assigned reading for next week
+  - Assigned reading for next week (you can skip the international section)
 - [Minimum Wages and OVB (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20OVB.R)
   - In-class exercise (not a homework assignment)
 
