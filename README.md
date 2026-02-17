@@ -4,6 +4,16 @@ This repository contains course materials for ECON 490 Economics Capstone at Cal
 
 Each week, I'll post links for lecture slides and R coding-related material below. Coding activities and other homework assignments should be submitted via Canvas.
 
+## Week 5: _Week of Monday (2/16)_
+
+**Topics:** Omitted variable bias and causal inference; minimum wages
+
+- [OVB and Causal Inference Slides](slides/ECON%20490%20Metrics%20Slides%20-%20OVB%20and%20Causal%20Inference.pdf)
+- [The Elusive Employment Effect of the Minimum Wage (Manning 2021)](modules/minimum-wages/The%20Elusive%20Employment%20Effect%20of%20the%20Minimum%20Wage%20(Manning%202021).pdf)
+  - Assigned reading for next week
+- [Minimum Wages and OVB (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20OVB.R)
+  - In-class exercise (not a homework assignment)
+
 ## Week 4: _Week of Monday (2/9)_
 
 **Topics:** Regression review (cont.); economics of housing
