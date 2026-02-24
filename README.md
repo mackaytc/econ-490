@@ -4,6 +4,14 @@ This repository contains course materials for ECON 490 Economics Capstone at Cal
 
 Each week, I'll post links for lecture slides and R coding-related material below. Coding activities and other homework assignments should be submitted via Canvas.
 
+## Week 6: _Week of Monday (2/23)_
+
+**Topics:** Inference basics; minimum wages
+
+- [Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)
+- [Minimum Wages and TWFE (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20TWFE.R)
+  - In-class exercise (not a homework assignment)
+
 ## Week 5: _Week of Monday (2/16)_
 
 **Topics:** Omitted variable bias and causal inference; minimum wages
