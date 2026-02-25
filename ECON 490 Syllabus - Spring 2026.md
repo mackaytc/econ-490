@@ -113,7 +113,7 @@ The grade breakdown is as follows:
 ### Homework
 
 - We will have two broad types of homework assignments in this course: shorter-format R coding activities and longer-format homework assignments. Together, these assignments count for 30% of your final grade.
-- We will complete 5 coding activities to give you the tools needed to complete the capstone paper. The coding activities together will count for 20% of your final grade, with each activity weighted equally.
+- We will complete 4 coding activities to give you the tools needed to complete the capstone paper. The coding activities together will count for 20% of your final grade, with each activity weighted equally.
   - I will introduce each activity during the class in which it is assigned and highlight any required packages, functions, and data you will need to complete the activity. You will then complete and submit your code for the activity prior to the start of next class.
   - These assignments will make use of R + RStudio. I've posted several options for you to get access to RStudio. You are not required to bring a laptop to lecture although you are encouraged to do so if possible.
   - Each activity will include instructions that clearly detail the requirements and expectations for that activity.
@@ -224,43 +224,41 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 * ***Topics:*** OLS with controls; housing supply constraints and policy implications (Glaeser & Gyourko)
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
-  * Read *Local Transportation Policy and Economic Opportunity* by Turner (2019) by next class; this reading will be covered by the quiz at the start of next week
+  * Read *The Elusive Employment Effect of the Minimum Wage* by Manning (2021) by next class; this reading will be covered by the quiz at the start of next week (you can skip the international section)
   * Coding Activity 3 due by next Monday
 
 ### ***Week 5*** *(February 16)*
 
-* ***Module:*** Transportation
-* ***Topics:*** Connecting LA traffic, Metro expansion, and transit access to economics research; local transportation policy and economic opportunity 
+* ***Module:*** Minimum Wages (Part 1)
+* ***Topics:*** Omitted variable bias and causal inference; connecting California's fast food minimum wage to economics research; introduction to minimum wage economics
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
-  * Read *The Elusive Employment Effect of the Minimum Wage* by Manning (2021) by next class; this reading will be covered by the quiz at the start of next week
-  * Coding Activity 4 due by next Monday
 
 ### ***Week 6*** *(February 23)*
 
-* ***Module:*** Minimum Wages (Part 1)
-* ***Topics:*** Connecting California's fast food minimum wage to economics research; introduction to panel data and fixed effects; why cross-sectional MW comparisons fail
+* ***Module:*** Minimum Wages (Part 2)
+* ***Topics:*** Inference basics; panel data, fixed effects, and two-way fixed effects (TWFE) estimation
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
 
 ### ***Week 7*** *(March 2)*
 
-* ***Module:*** Minimum Wages (Part 2)
-* ***Topics:*** Two-way fixed effects as difference-in-differences; Card & Krueger and the parallel trends assumption
+* ***Topics:*** Capstone project introduction; interactions in regression analysis
 * ***Assignments:***
   * Longer-format homework assignment on generating data analysis output due next Monday
 
 ### ***Week 8*** *(March 9)*
 
-* ***Module:*** Minimum Wages (Part 3)
-* ***Topics:*** Modern DiD methods and event studies; Dube et al. contiguous counties; Manning (2021) synthesis
+* ***Note:*** Remote week — no in-person class meetings
+* ***Topics:*** Capstone project requirements and expectations (posted video lectures)
 * ***Assignments:***
-  * Coding Activity 5 due by next Monday
+  * Coding Activity 4 due by next Monday
 
 ### ***Week 9*** *(March 16)*
 
 * ***Topics:*** Capstone proposal preparation; applying course methods to your research question
 * ***Assignments:***
+  * Group activity: applying data analysis strategies
   * Capstone research proposal due next Monday
 
 ### ***Week 10*** *(March 23)*
