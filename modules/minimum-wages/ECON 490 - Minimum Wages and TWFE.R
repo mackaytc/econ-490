@@ -72,9 +72,9 @@ ggplot(state.data, aes(x = min.wage, y = teen.emp.rate)) +
   theme_minimal()
 
 # The downward slope is clear. But from the OVB activity, we know both
-# variables are trending over time. How much of this negative slope is driven
-# by actual MW-employment dynamics vs. shared time trends and cross-state
-# differences?
+# variables are trending over time. What does omitting time as an explanatory
+# variable do to our estimate of the effect of the MW on employment?
+
 
 
 
@@ -103,7 +103,7 @@ state.data <- state.data %>%
 # In the space below, use group_by(year) and mutate() to subtract the year
 # mean of emp.demean and mw.demean from themselves. Overwrite the existing
 # emp.demean and mw.demean variables.
-#
+
 # HINT: The structure is the same as Step 1, but grouped by year instead of
 # state.fips.
 
@@ -112,8 +112,8 @@ state.data <- state.data %>%
 
 # After double-demeaning, the remaining variation in each variable is "within
 # state, within year" - variation that can't be explained by either permanent
-# state characteristics or common national trends. This is exactly the
-# variation that a two-way fixed effects regression uses.
+# state characteristics or common national trends. This is the variation that a
+# two-way fixed effects regression uses.
 
 
 
@@ -178,7 +178,7 @@ trend.model <- lm(teen.emp.rate ~ min.wage + factor(state.fips) + factor(year) +
 summary(trend.model)$coefficients["min.wage", ]
 
 # With state-specific trends, the coefficient is essentially zero and
-# statistically insignificant. This is Manning's core finding: the negative
+# statistically insignificant. This is Manning's core finding; the negative
 # association between minimum wages and teen employment disappears once you
 # allow for the fact that different states were on different employment
 # trajectories for reasons unrelated to their minimum wage policies.
