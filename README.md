@@ -11,6 +11,8 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 - [Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)
 - [Data Analysis Output Handout](handouts/ECON%20490%20R%20HW%20-%20Data%20Analysis%20Output%20Handout.pdf)
   - Guide for completing the data analysis output homework due next week
+- [Crime Data Sources](modules/crime/crime-data.md)
+  - Links for the crime data we'll analyze during class this week
 - [Punishment and Deterrence: Evidence from Drunk Driving (Hansen 2015)](modules/crime/Punishment%20and%20Deterrence%20-%20Evidence%20from%20Drunk%20Driving%20(Hansen%202015).pdf)
   - Assigned reading for next week
 
