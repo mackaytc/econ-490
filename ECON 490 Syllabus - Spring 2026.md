@@ -243,29 +243,32 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 
 ### ***Week 7*** *(March 2)*
 
-* ***Topics:*** Capstone project introduction; interactions in regression analysis
+* ***Module:*** Crime (Part 1)
+* ***Topics:*** Practical data analysis advice (part 1); working with crime-related data
 * ***Assignments:***
-  * Longer-format homework assignment on generating data analysis output due next Monday
+  * Read *Punishment and Deterrence: Evidence from Drunk Driving* by Hansen (2015) for next week
+  * Longer-format homework assignment on generating data analysis output assigned; due Monday (March 16)
 
 ### ***Week 8*** *(March 9)*
 
 * ***Note:*** Remote week — no in-person class meetings
-* ***Topics:*** Capstone project requirements and expectations (posted video lectures)
+* ***Module:*** Crime (Part 2)
+* ***Topics:*** Economics of crime
 * ***Assignments:***
-  * Coding Activity 4 due by next Monday
+  * In lieu of the in-class activity, students will submit review quetions via Microsoft Forms; a link will be posted on Canvas
 
 ### ***Week 9*** *(March 16)*
 
-* ***Topics:*** Capstone proposal preparation; applying course methods to your research question
+* ***Topics:*** Capstone proposal preparation; interactions in regression analysis; applying course methods to your research question
 * ***Assignments:***
-  * Group activity: applying data analysis strategies
   * Capstone research proposal due next Monday
 
 ### ***Week 10*** *(March 23)*
 
-* ***Topics:*** Research proposal due; class discussion of proposed topics
+* ***Topics:*** Practical data analysis advice (part 2); class discussion and group activity on data analysis strategies
 * ***Assignments:***
   * Capstone research proposal due at the start of lecture on Monday
+  * Coding Activity 4 due by the start of next Monday
 
 ### ***Spring Recess***
 
@@ -283,12 +286,12 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 * ***Assignments:***
   * Presentation slides must be uploaded **before** the start of lecture on Monday
   * Capstone outlines are due at the **end** of this week (Friday) to give you extra time to prepare
-  * Read *The Economics of Policing and Public Safety* by Bocar and Ba (2021) by next class
+  * Read *Local Transportation Policy and Economic Opportunity* by Turner (2019) by next class
 
 ### ***Week 13*** *(April 20)*
 
-* ***Module:*** Crime
-* ***Topics:*** Connecting local policing debates to economics research; economics of policing and public safety; fixed effects and peer effects applications
+* ***Module:*** Transportation
+* ***Topics:*** Connecting LA traffic, Metro expansion, and transit access to economics research; local transportation policy and economic opportunity
 
 ### ***Week 14*** *(April 27)*
 
