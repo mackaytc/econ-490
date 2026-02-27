@@ -4,6 +4,16 @@ This repository contains course materials for ECON 490 Economics Capstone at Cal
 
 Each week, I'll post links for lecture slides and R coding-related material below. Coding activities and other homework assignments should be submitted via Canvas.
 
+## Week 7: _Week of Monday (3/2)_
+
+**Topics:** Practical data analysis tips; crime
+
+- [Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)
+- [Data Analysis Output Handout](handouts/ECON%20490%20R%20HW%20-%20Data%20Analysis%20Output%20Handout.pdf)
+  - Guide for completing the data analysis output homework due next week
+- [Punishment and Deterrence: Evidence from Drunk Driving (Hansen 2015)](modules/crime/Punishment%20and%20Deterrence%20-%20Evidence%20from%20Drunk%20Driving%20(Hansen%202015).pdf)
+  - Assigned reading for next week
+
 ## Week 6: _Week of Monday (2/23)_
 
 **Topics:** Inference basics; minimum wages
