@@ -255,7 +255,7 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 * ***Module:*** Crime (Part 2)
 * ***Topics:*** Economics of crime
 * ***Assignments:***
-  * In lieu of the in-class activity, students will submit review quetions via Microsoft Forms; a link will be posted on Canvas
+  * Content from this week will be covered during in-class quiz next week
 
 ### ***Week 9*** *(March 16)*
 
