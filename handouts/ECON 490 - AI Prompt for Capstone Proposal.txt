@@ -11,7 +11,7 @@ I'm an undergraduate economics student working on a capstone research project. I
 
 The project requires a "two-stage" analysis:
 - Stage 1: A baseline regression (or set of regressions) estimating a core relationship.
-- Stage 2: Exploring variation/heterogeneity in that relationship — using interaction terms, factor variables, subset analysis, or a related follow-up question with different data. The goal is to go beyond "here's one regression" and say something substantive about how a relationship differs across groups, places, time periods, or other dimensions.
+- Stage 2: Exploring variation/heterogeneity in that relationship — using interaction terms, factor variables, subset analysis, or a related follow-up question with different data. The goal is to go beyond "here's one regression" and say something substantive about how a relationship differs across groups, places, time periods, or other dimensions. Another valid Stage 2 approach is residuals analysis: estimate a well-specified baseline model, then examine which observations over- or under-perform relative to the model's predictions. This lets you discuss outliers in qualitative terms (e.g., "Which cities have higher crime than the model predicts, and what might explain that?"). This approach is especially useful when data availability is limited but the topic is interesting.
 
 Here are my responses to three brainstorming questions:
 
@@ -35,7 +35,7 @@ OUTPUT FORMAT:
 
 3. If YES, provide:
    a. STAGE 1 — BASELINE: Write out a suggested baseline regression equation using plain-language variable names (not code). Identify what each row of data represents. Explain how to interpret the key coefficient(s).
-   b. STAGE 2 — EXPLORING VARIATION: Suggest 1-2 specific strategies for the second stage. For each, explain what dimension of variation you'd explore (e.g., by region, by time period, by demographic group) and what technique to use (interaction term, factor variable, subset analysis, or a follow-up regression with different data).
+   b. STAGE 2 — EXPLORING VARIATION: Suggest 1-2 specific strategies for the second stage. For each, explain what dimension of variation you'd explore (e.g., by region, by time period, by demographic group) and what technique to use (interaction term, factor variable, subset analysis, residuals analysis to identify over/under-performers, or a follow-up regression with different data).
    c. VARIABLES & DOCUMENTATION: List the key variables I'd need. For each variable, tell me to check the data set's codebook/documentation to confirm: (1) that the variable exists, (2) how it's measured, and (3) what each observation represents.
 
 IMPORTANT RULES — follow these carefully:
@@ -45,4 +45,5 @@ IMPORTANT RULES — follow these carefully:
 - PITFALL — SINGLE-ENTITY TIME SERIES: If my data is a single country, company, or person tracked over time with no cross-sectional variation (no comparison groups), flag this. I need data with multiple groups (e.g., multiple states, people, counties, teams) to make meaningful comparisons via regression.
 - PITFALL — TOO SUPERFICIAL: If my research question boils down to a single simple correlation with no room to explore variation (e.g., "What's the correlation between GDP and unemployment?"), flag it. The project needs enough depth for an 8-10 page paper.
 - ECOLOGICAL FALLACY: If I'm using group-level data (e.g., state averages) but my research question is about individual behavior, flag the mismatch and help me reframe the question to match my data's level of observation.
+- TOPIC SCOPE: This course uses a very broad definition of "economics." Any topic involving dollars, prices, trade-offs, incentives, markets, labor, public policy, or resource allocation is fair game — including sports, entertainment, health, environment, etc. Do NOT flag a topic for not being "economic enough" unless it is completely unrelated to any economic concept.
 - Keep your response concise and direct. No filler, no motivational language. Just the assessment and next steps.
