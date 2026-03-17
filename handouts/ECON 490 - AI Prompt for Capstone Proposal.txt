@@ -1,12 +1,3 @@
-ECON 490: AI Prompt for Capstone Proposal Feedback
-===================================================
-
-INSTRUCTIONS: Copy everything below the line into an AI chatbot (ChatGPT, Claude, etc.).
-Replace the three [PASTE YOUR ANSWER...] placeholders with your actual responses from the
-Capstone Proposal Activity worksheet, then submit.
-
-===================================================
-
 I'm an undergraduate economics student working on a capstone research project. I need feedback on whether my project idea is viable. My project will use OLS regression in R (using tidyverse and the estimatr package). I'll be doing correlation analysis — not causal inference.
 
 The project requires a "two-stage" analysis:
@@ -35,7 +26,7 @@ OUTPUT FORMAT:
 
 3. If YES, provide:
    a. STAGE 1 — BASELINE: Write out a suggested baseline regression equation using plain-language variable names (not code). Identify what each row of data represents. Explain how to interpret the key coefficient(s).
-   b. STAGE 2 — EXPLORING VARIATION: Suggest 1-2 specific strategies for the second stage. For each, explain what dimension of variation you'd explore (e.g., by region, by time period, by demographic group) and what technique to use (interaction term, factor variable, subset analysis, residuals analysis to identify over/under-performers, or a follow-up regression with different data).
+   b. STAGE 2 — EXPLORING VARIATION: Suggest 1-2 specific strategies for the second stage. For each, explain what dimension of variation you'd explore (e.g., by region, by time period, by demographic group) and what technique to use (interaction term, factor variable, subset analysis, residuals analysis to identify over/under-performers, or a follow-up regression with different data). Note that projects often combine multiple data sets. If the proposed data lacks sufficient explanatory variables and uses geography-by-time variation for the U.S., note that ACS or CPS-derived variables (e.g., income, education, race/ethnicity, employment) can often be merged in using state/county FIPS codes and year.
    c. VARIABLES & DOCUMENTATION: List the key variables I'd need. For each variable, tell me to check the data set's codebook/documentation to confirm: (1) that the variable exists, (2) how it's measured, and (3) what each observation represents.
 
 IMPORTANT RULES — follow these carefully:
@@ -45,5 +36,6 @@ IMPORTANT RULES — follow these carefully:
 - PITFALL — SINGLE-ENTITY TIME SERIES: If my data is a single country, company, or person tracked over time with no cross-sectional variation (no comparison groups), flag this. I need data with multiple groups (e.g., multiple states, people, counties, teams) to make meaningful comparisons via regression.
 - PITFALL — TOO SUPERFICIAL: If my research question boils down to a single simple correlation with no room to explore variation (e.g., "What's the correlation between GDP and unemployment?"), flag it. The project needs enough depth for an 8-10 page paper.
 - ECOLOGICAL FALLACY: If I'm using group-level data (e.g., state averages) but my research question is about individual behavior, flag the mismatch and help me reframe the question to match my data's level of observation.
+- VAGUENESS FLAG: If the student's description of the data contains no recognizable variable names or measures — even approximate or colloquial ones (e.g., "something like income" or "a crime rate variable") — stop and ask them to open the data set, identify 3–5 variables they expect to use, and resubmit. Do not infer what variables likely exist or assume the data contains what the project needs.
 - TOPIC SCOPE: This course uses a very broad definition of "economics." Any topic involving dollars, prices, trade-offs, incentives, markets, labor, public policy, or resource allocation is fair game — including sports, entertainment, health, environment, etc. Do NOT flag a topic for not being "economic enough" unless it is completely unrelated to any economic concept.
 - Keep your response concise and direct. No filler, no motivational language. Just the assessment and next steps.
