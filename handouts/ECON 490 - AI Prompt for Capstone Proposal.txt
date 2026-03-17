@@ -1,0 +1,48 @@
+ECON 490: AI Prompt for Capstone Proposal Feedback
+===================================================
+
+INSTRUCTIONS: Copy everything below the line into an AI chatbot (ChatGPT, Claude, etc.).
+Replace the three [PASTE YOUR ANSWER...] placeholders with your actual responses from the
+Capstone Proposal Activity worksheet, then submit.
+
+===================================================
+
+I'm an undergraduate economics student working on a capstone research project. I need feedback on whether my project idea is viable. My project will use OLS regression in R (using tidyverse and the estimatr package). I'll be doing correlation analysis — not causal inference.
+
+The project requires a "two-stage" analysis:
+- Stage 1: A baseline regression (or set of regressions) estimating a core relationship.
+- Stage 2: Exploring variation/heterogeneity in that relationship — using interaction terms, factor variables, subset analysis, or a related follow-up question with different data. The goal is to go beyond "here's one regression" and say something substantive about how a relationship differs across groups, places, time periods, or other dimensions.
+
+Here are my responses to three brainstorming questions:
+
+1) DATA SET / TOPIC: What data set did I choose, and why?
+[PASTE YOUR ANSWER TO QUESTION 1 HERE]
+
+2) CORRELATION: What relationship would I estimate, and why is it interesting?
+[PASTE YOUR ANSWER TO QUESTION 2 HERE]
+
+3) EXPLORING VARIATION: How would I explore differences in that relationship?
+[PASTE YOUR ANSWER TO QUESTION 3 HERE]
+
+---
+
+Based on my responses above, please give me structured feedback. Follow these rules strictly:
+
+OUTPUT FORMAT:
+1. VERDICT: Start with a clear "YES — this project is viable" or "NO — this project is not viable as described." Add 1-2 sentences explaining why.
+
+2. If NO: List the specific problems, then suggest 1-2 concrete ways to pivot or fix the idea.
+
+3. If YES, provide:
+   a. STAGE 1 — BASELINE: Write out a suggested baseline regression equation using plain-language variable names (not code). Identify what each row of data represents. Explain how to interpret the key coefficient(s).
+   b. STAGE 2 — EXPLORING VARIATION: Suggest 1-2 specific strategies for the second stage. For each, explain what dimension of variation you'd explore (e.g., by region, by time period, by demographic group) and what technique to use (interaction term, factor variable, subset analysis, or a follow-up regression with different data).
+   c. VARIABLES & DOCUMENTATION: List the key variables I'd need. For each variable, tell me to check the data set's codebook/documentation to confirm: (1) that the variable exists, (2) how it's measured, and (3) what each observation represents.
+
+IMPORTANT RULES — follow these carefully:
+- DATA AVAILABILITY: Do NOT tell me a data set is available unless you can point me to a specific, verified URL. If you're unsure whether certain variables exist in my data, say so explicitly and tell me to check the codebook. Default to "verify this yourself" rather than assuming.
+- METHODS: Only suggest OLS regression. Do not suggest logit, probit, instrumental variables, difference-in-differences, regression discontinuity, time series models, or machine learning. OLS with a binary (0/1) outcome variable is fine.
+- PROHIBITED TOPIC: Projects examining "the correlation between state economic conditions and crime" are not allowed for this course. If my idea is this or something very close to it, flag it immediately.
+- PITFALL — SINGLE-ENTITY TIME SERIES: If my data is a single country, company, or person tracked over time with no cross-sectional variation (no comparison groups), flag this. I need data with multiple groups (e.g., multiple states, people, counties, teams) to make meaningful comparisons via regression.
+- PITFALL — TOO SUPERFICIAL: If my research question boils down to a single simple correlation with no room to explore variation (e.g., "What's the correlation between GDP and unemployment?"), flag it. The project needs enough depth for an 8-10 page paper.
+- ECOLOGICAL FALLACY: If I'm using group-level data (e.g., state averages) but my research question is about individual behavior, flag the mismatch and help me reframe the question to match my data's level of observation.
+- Keep your response concise and direct. No filler, no motivational language. Just the assessment and next steps.

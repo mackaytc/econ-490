@@ -4,6 +4,16 @@ This repository contains course materials for ECON 490 Economics Capstone at Cal
 
 Each week, I'll post links for lecture slides and R coding-related material below. Coding activities and other homework assignments should be submitted via Canvas.
 
+## Week 9: _Week of Monday (3/16)_
+
+**Topics:** Capstone project introduction
+
+- [Capstone Project Introduction Slides](slides/ECON%20490%20Slides%20-%20Capstone%20Project%20Introduction.pdf)
+- [Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)
+  - In-class brainstorming worksheet for capstone project ideas
+- [AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)
+  - Paste your proposal activity responses into an AI chatbot for structured feedback
+
 ## Week 7: _Week of Monday (3/2)_
 
 **Topics:** Practical data analysis tips; crime
