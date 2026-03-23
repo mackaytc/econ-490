@@ -9,7 +9,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Exploring variation with interaction terms
 
 - [Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)
-  - In these slides, we'll cover using interactions in regressions, which is an easy way to implement the concept of exploring variation for your capstone projects
+  - Interactions in regressions are an easy way to implement the concept of exploring variation
 - [Interaction Terms In-Class Activity (R Code)](coding-activities/ECON-490-Interaction-In-Class-Activity.R)
   - In-class exercise applying interaction term concepts from the slides to ACS data
 
