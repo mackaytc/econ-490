@@ -6,8 +6,9 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 ## Week 10: _Week of Monday (3/23)_
 
-**Topics:** Exploring variation with interaction terms
+**Topics:** Practical data analysis tips; exploring variation with interaction terms
 
+- [Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)
 - [Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)
   - Interactions in regressions are an easy way to implement the concept of exploring variation
 - [Interaction Terms In-Class Activity (R Code)](coding-activities/ECON-490-Interaction-In-Class-Activity.R)
