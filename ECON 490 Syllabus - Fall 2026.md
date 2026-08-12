@@ -1,4 +1,4 @@
-# ECON 490-01 Economics Capstone (Class Number 12775)
+# ECON 490-01 Economics Capstone (Class Number 12855)
 
 ***Cal State Fullerton, Department of Economics***
 
@@ -12,13 +12,12 @@ The overarching goal of this course is to develop your ability to consume and pr
 
 - **Instruction Modality:** In-Person
 - **Class Location:** SGMH 2113
-- **Class Days and Time:** Monday and Wednesday 1:00 to 2:15 PM
+- **Class Days and Time:** Wednesdays 7:00 to 9:45 PM
 - **Instructor:** Taylor Mackay
 - **Office:** SGMH 3340
 - **E-mail:** [tmackay@fullerton.edu](mailto:tmackay@fullerton.edu)
 - **Office Hours:**
-  - Mondays from 4:45 to 6:45 PM 
-  - Wednesdays 10:15 to 11:15 AM
+  - Wednesdays from 3:45 to 6:45 PM
   - Also available by appointment for Zoom meetings
 
 ### Pre/Co-Requisites
@@ -71,9 +70,9 @@ Final grades will be calculated according to the following table:
 
 | *Category/Assignment* | *Percentage of Final Grade* |
 | --------------------- | --------------------------- |
-| Capstone Project      | 30%                         |
-| Homework              | 30%                         |
-| In-Class Activities   | 40%                         |
+| Capstone Project      | 45%                         |
+| Homework              | 10%                         |
+| In-Class Activities   | 45%                         |
 
 ### Grading Standards and Criteria
 
@@ -102,39 +101,35 @@ The grade breakdown is as follows:
 
 - For the capstone project, you will demonstrate your ability to create new economic knowledge and convey this knowledge in both (1) written form via your capstone paper and (2) orally via a professional, "economics-style" presentation to the class. This project may be completed either individually or working with a partner.
 - You will complete several intermediate assignments throughout the semester as part of completing your capstone paper, each of which will contribute to your final grade. These assignments are listed below along with respective due dates and their contributions to your final grade:
-  - **Research Proposal** due Monday, 3/23 (2.5% of final grade): You will complete a worksheet summarizing your proposed capstone paper research question and data analysis plan. Proposals must receive my approval before proceeding to subsequent capstone assignments.
-  - **Outline** due Monday, 4/13 (5% of final grade): Bullet-point-formatted outline of your Capstone paper, with descriptions of each component of the paper and preliminary results from your data analysis.
-    - As part of the Outline assignment, you will deliver a 5-10 minute presentation in class during the week of April 13 in which you introduce your research question to the class, describe your working data set, and discuss at least one result from your data analysis output.
-    - The presentation will count for 2.5% of your final grade.
+  - **Research Proposal** due Wednesday, 10/7 (5% of final grade): You will complete a worksheet summarizing your proposed capstone paper research question and data analysis plan. Proposals must receive my approval before proceeding to subsequent capstone assignments.
+  - **Capstone Lab Activity 1** completed in class on Wednesday, 10/14 (5% of final grade): You will build the working data set for your capstone paper and produce a table of summary statistics describing it. You'll submit your R code and your table before leaving class.
+  - **Capstone Lab Activity 2** completed in class on Wednesday, 10/21 (5% of final grade): You will estimate the main specification for your capstone paper and produce a results table and at least one figure. You'll submit your R code, table, and figure before leaving class.
+    - The output you produce in both lab activities feeds directly into your outline and final paper, so bring your data and any code you've written so far.
+  - **Outline Presentation** delivered in class on Wednesday, 11/4 (2.5% of final grade): A 5-10 minute presentation in which you introduce your research question to the class, describe your working data set, and discuss at least one result from your data analysis output. Slides must be uploaded before the start of class.
+  - **Outline** due Friday, 11/6 (7.5% of final grade): Bullet-point-formatted outline of your capstone paper, with descriptions of each component of the paper and preliminary results from your data analysis. The deadline falls at the end of the week to give you time to revise after presenting.
   - **Final Presentations** during Weeks 14 and 15 (10% of final grade): 15-minute presentation delivered in class addressing your research question, motivation and existing evidence, analytical approach, and findings.
-  - **Final Paper** due Friday, 5/15 (10% of final grade): 8-to-10-page essay written as an economics-style research article in which you identify a research question, cite, and synthesize existing economics literature, and conduct and interpret your own economic analysis.
+  - **Final Paper** due Friday, 12/18 (10% of final grade): 8-to-10-page essay written as an economics-style research article in which you identify a research question, cite, and synthesize existing economics literature, and conduct and interpret your own economic analysis.
 - **NOTE:** You must receive my approval for your proposed research question identified in your Research Proposal in order to receive credit for any subsequent components of the capstone paper. Failure to do so will result in a 0 for all subsequent components and an automatic failing grade for the course.
 
 ### Homework
 
-- We will have two broad types of homework assignments in this course: shorter-format R coding activities and longer-format homework assignments. Together, these assignments count for 30% of your final grade.
-- We will complete 4 coding activities to give you the tools needed to complete the capstone paper. The coding activities together will count for 20% of your final grade, with each activity weighted equally.
+- Homework in this course takes the form of shorter-format R coding activities, which together count for 10% of your final grade.
+- We will complete 4 coding activities to give you the tools needed to complete the capstone paper, with each activity weighted equally at 2.5% of your final grade.
   - I will introduce each activity during the class in which it is assigned and highlight any required packages, functions, and data you will need to complete the activity. You will then complete and submit your code for the activity prior to the start of next class.
   - These assignments will make use of R + RStudio. I've posted several options for you to get access to RStudio. You are not required to bring a laptop to lecture although you are encouraged to do so if possible.
   - Each activity will include instructions that clearly detail the requirements and expectations for that activity.
 - Grading for the coding activities will be based on (1) completion and (2) accuracy.
   - With regards to accuracy, it is important that you use the specific tools described in each activity (meaning, for example, that you use `tidyverse` functions where specified instead of Base R functions or other alternatives).
   - A detailed rubric will be available on Canvas detailing expectations and grading for each activity. Solutions for each activity will be posted to Canvas following the posted due date.
-- We will have 2-3 longer-format homework assignments throughout the semester where I will assign either 1) a reading and a corresponding set of short-answer questions or 2) a longer-format data analysis activity using R that is less structured than the R coding activities.
-  - For reading-based assignments, you will be assigned a reading (e.g., a journal article, news article, or textbook chapter provided to you via Canvas) and write up paragraph-length responses to each question, then upload your responses in Word or PDF format to Canvas.
-  - For R-based assignments, you will complete a longer-format data analysis activity that is less structured than the shorter R coding activities, requiring you to apply the skills developed in the coding activities to a more open-ended analysis task.
-  - Each longer-format homework will be posted on Canvas at least two weeks prior to the due date for the assignment.
-- The longer-format homework assignments will count towards 10% of your final grade, with each assignment weighted equally. If we have 2 longer-format homework assignments, each will be worth 5% of your final grade. A detailed rubric will be available on Canvas detailing grading for these assignments.
 
 ### In-Class Activities
 
-- Each week, we will complete a graded, in-class activity that you will submit to demonstrate that you are following along with the course material and required reading. The in-class activities together are worth 40% of your final grade.
+- Each week, we will complete a graded, in-class activity that you will submit to demonstrate that you are following along with the course material and required reading. The in-class activities together are worth 45% of your final grade.
 - Weekly activities will include either a 1) quiz or a 2) coding-based activity.
   - The quizzes will be roughly 1-2 pages long and will cover the assigned reading material for the current week and course content from the prior week. The quizzes will feature a mixture of short-answer, multiple choice, and definition-based questions. All quizzes will be completed individually, with no notes or other study materials available.
   - In-class coding activities will be self-contained R coding activities that you will complete and submit in class during the class in which they are assigned. You will be allowed to work with your classmates, but each student must submit their own code file.
   - A detailed answer key will be provided for each weekly activity quiz/R coding activity via Canvas. All submissions will be graded prior to the start of next week.
 - In-class activities must be completed during the class in which they are assigned. There are no late submissions for in-class activities. At the end of the semester, I will drop the lowest in-class activity score for everyone, so students will effectively have one excused absence. Additional policies regarding attendance and excused absences are listed below.
-  - For sections of ECON 490 that meet twice per week, the weekly activity may be assigned on either day during the week. Students who miss one of the two classes in a week but attend on the day of the activity will receive a 50 percent grade deduction for that week's activity. Students who miss the day of the activity will receive a 0 for that week, even if they attend the other day.
   - In addition to the dropped lowest score, absences covered by either of the two following circumstances will also be excused:
     1. A medical issue affecting either you or an immediate family member for which you have documentation (i.e., a doctor's note, etc.).
     2. A documented scheduling conflict for student athletes based on official documentation from Athletics Academic Services, in which one of the "Actual Missed Classes" listed in your "Missed Class Time Contract" specifically falls on a class meeting day.
@@ -144,7 +139,7 @@ The grade breakdown is as follows:
 - ***Professional Conduct Policy:*** Students who are disruptive during class, disrespectful in their interactions with other students during class, or unprofessional in interactions with peers or the professor in any setting including class, office hours, and verbal or electronic communication including email, or otherwise impede the ability of others to learn, will face deductions to the In-Class Activities component of their final grade.
   - Behavior which meets any of the criteria listed above will receive formal notice from the professor via an email documenting the date and nature of the incident. The email subject line will read "ECON 490: Professional Conduct Notice" and will summarize the conduct policy, briefly state the reason for the notice, and state the associated grade penalty.
   - For the first violation, students will lose 5 percent of their overall possible In-Class Activities score. Subsequent violations will face escalating penalties in addition to prior penalties: for the 2nd violation, students will face a penalty of 20 percent, for a total deduction to their overall In-Class Activities score of 25 percent (5 percent for the first violation and 20 percent for the second). For the third violation, students will face an additional penalty of 25 percent, and in the event of a fourth violation, students will be penalized the remaining 50 percent of their overall In-Class Activities score.
-  - As an example, a student who incurs 4 violations loses 100 percent of their possible In-Class Activities score, meaning that they can earn no more than 60 percent in the class overall (i.e., if they score 100 percent on all other grade categories and a 0 percent for the In-Class Activities category which counts for 40 percent of their final grade, they will earn a 60 percent in the class overall).
+  - As an example, a student who incurs 4 violations loses 100 percent of their possible In-Class Activities score, meaning that they can earn no more than 55 percent in the class overall (i.e., if they score 100 percent on all other grade categories and a 0 percent for the In-Class Activities category which counts for 45 percent of their final grade, they will earn a 55 percent in the class overall).
   - Behavior which is not appropriate for a professional, academic setting that does not rise to the level of violating the professional conduct policy, such as arriving to class more than 10 minutes late, leaving early without explanation, sleeping during class, etc., may result in receiving a 0 for that week's in-class activity (although this deduction will *not* count towards the cumulative penalties for larger infractions listed above).
 
 
@@ -196,115 +191,111 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 
 ## TENTATIVE SCHEDULE
 
-### ***Week 1***
-
-* ***Note:*** No class this week due to Martin Luther King, Jr. Day (Monday, January 19). The course schedule begins with Week 2.
-
-### ***Week 2*** *(January 26)*
+### ***Week 1*** *(August 26)*
 
 * ***Topics:*** Course overview; introduction to econometrics and data analysis with R
 
 * ***Reading:***
   * *Learning to Speak R* – course handout (posted on Canvas)
 * ***Assignments:***
-  * Coding Activity 1 due by next Monday
+  * Coding Activity 1 due by the start of next class
 
-### ***Week 3*** *(February 2)*
+### ***Week 2*** *(September 2)*
 
 * ***Module:*** Housing (Part 1)
 * ***Topics:*** Connecting Southern California housing affordability and development to economics research; introduction to housing economics; regression review and interpretation
 * ***Assignments:***
   * Quiz on metrics/related lecture material to start class
   * Read *The Economic Implications of Housing Supply* by Glaeser and Gyourko (2018) by next class; this reading will be covered by the quiz at the start of next week
-  * Coding Activity 2 due by next Monday
+  * Coding Activity 2 due by the start of next class
 
-### ***Week 4*** *(February 9)*
+### ***Week 3*** *(September 9)*
 
 * ***Module:*** Housing (Part 2)
 * ***Topics:*** OLS with controls; housing supply constraints and policy implications (Glaeser & Gyourko)
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
   * Read *The Elusive Employment Effect of the Minimum Wage* by Manning (2021) by next class; this reading will be covered by the quiz at the start of next week (you can skip the international section)
-  * Coding Activity 3 due by next Monday
+  * Coding Activity 3 due by the start of next class
 
-### ***Week 5*** *(February 16)*
+### ***Week 4*** *(September 16)*
 
 * ***Module:*** Minimum Wages (Part 1)
 * ***Topics:*** Omitted variable bias and causal inference; connecting California's fast food minimum wage to economics research; introduction to minimum wage economics
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
 
-### ***Week 6*** *(February 23)*
+### ***Week 5*** *(September 23)*
 
 * ***Module:*** Minimum Wages (Part 2)
 * ***Topics:*** Inference basics; panel data, fixed effects, and two-way fixed effects (TWFE) estimation
 * ***Assignments:***
-  * Quiz on metrics/related lecture material as well as assigned reading to start class
+  * Quiz on metrics/related lecture material to start class
 
-### ***Week 7*** *(March 2)*
+### ***Week 6*** *(September 30)*
 
-* ***Module:*** Crime (Part 1)
-* ***Topics:*** Practical data analysis advice (part 1); working with crime-related data
+* ***Topics:*** Capstone project overview; practical data analysis advice (part 1); identifying research questions and locating data
 * ***Assignments:***
-  * Read *Punishment and Deterrence: Evidence from Drunk Driving* by Hansen (2015) for next week
-  * Longer-format homework assignment on generating data analysis output assigned; due Monday (March 16)
+  * Capstone proposal activity completed and submitted in class
+  * Capstone research proposal due at the start of next class
 
-### ***Week 8*** *(March 9)*
+### ***Week 7*** *(October 7)*
 
-* ***Note:*** Remote week — no in-person class meetings
-* ***Module:*** Crime (Part 2)
-* ***Topics:*** Economics of crime
+* ***Topics:*** Practical data analysis advice (part 2); exploring variation with interaction terms
 * ***Assignments:***
-  * Content from this week will be covered during in-class quiz next week
+  * Quiz on metrics/related lecture material to start class
+  * Capstone research proposal due at the start of lecture
+  * Coding Activity 4 due by the start of next class
 
-### ***Week 9*** *(March 16)*
+### ***Week 8*** *(October 14)*
 
-* ***Topics:*** Capstone proposal preparation; interactions in regression analysis; applying course methods to your research question
+* ***Topics:*** Capstone Lab Activity 1 – building your working data set
+  * We'll spend the bulk of class working directly with your capstone data. Bring your data source and any code you've written so far.
 * ***Assignments:***
-  * Capstone research proposal due next Monday
+  * Working data set and summary statistics table submitted before the end of class
 
-### ***Week 10*** *(March 23)*
+### ***Week 9*** *(October 21)*
 
-* ***Topics:*** Practical data analysis advice (part 2); class discussion and group activity on data analysis strategies
+* ***Topics:*** Capstone Lab Activity 2 – estimating your main specification
+  * Building on the data set from Week 8, you'll estimate your main specification and produce the table and figure you'll use in your outline and final paper.
 * ***Assignments:***
-  * Capstone research proposal due at the start of lecture on Monday
-  * Coding Activity 4 due by the start of next Monday
+  * Results table and figure submitted before the end of class
 
-### ***Spring Recess***
+### ***Week 10*** *(October 28)*
 
-* No classes the week of Monday (3/30)
+* ***Note:*** No class or office hours this week to give you additional time to work on your projects
 
-### ***Week 11*** *(April 6)*
-
-* ***Topics:*** *One-on-one meetings during this week – no in-person lecture*
-  * During this week, there will be no lecture. Instead, I will meet with everyone individually to discuss progress on your Capstone paper. Meeting times will be listed on Canvas.
-
-### ***Week 12*** *(April 13)*
+### ***Week 11*** *(November 4)*
 
 * ***Topics:*** Capstone outline presentations
   * Each student will deliver a 5-10 minute presentation showing their working data set and at least one output from their proposed data analysis
-* ###### ***Assignments:***
-  
-  * Presentation slides must be uploaded **before** the start of lecture on Monday
-  * Capstone outlines are due at the **end** of this week (Friday) to give you extra time to prepare
-  * Read *Local Transportation Policy and Economic Opportunity* by Turner (2019) by next class
+* ***Assignments:***
+  * Presentation slides must be uploaded **before** the start of lecture
+  * Capstone outlines are due at the **end** of this week (Friday, 11/6) to give you extra time to prepare
 
-### ***Week 13*** *(April 20)*
+### ***Week 12*** *(November 11)*
 
-* ***Module:*** Transportation
-* ***Topics:*** Connecting LA traffic, Metro expansion, and transit access to economics research; local transportation policy and economic opportunity
+* ***Note:*** No class this week; campus is closed for Veterans Day
 
-### ***Week 14*** *(April 27)*
+### ***Week 13*** *(November 18)*
+
+* ***Topics:*** *One-on-one meetings during this week – no in-person lecture*
+  * During this week, there will be no lecture. Instead, I will meet with everyone individually to discuss progress on your capstone paper. Meeting times will be listed on Canvas.
+
+### ***Fall Recess***
+
+* No classes the week of Monday (11/23)
+
+### ***Week 14*** *(December 2)*
 
 * ***Topics:*** Capstone paper research presentations (Pt. 1)
   * In order to ensure everyone has adequate time to present, presentations will be split over Weeks 14 and 15.
 
-### ***Week 15*** *(May 4)*
+### ***Week 15*** *(December 9)*
 
 * ***Topics:*** Capstone paper research presentations (Pt. 2)
 * ***Assignments:***
-  * Final capstone papers are due at the end of Finals week (Friday)
-
+  * Final capstone papers are due at the end of Finals week (Friday, 12/18)
 
 
 ***
