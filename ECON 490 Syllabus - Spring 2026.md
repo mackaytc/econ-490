@@ -283,7 +283,8 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 
 * ***Topics:*** Capstone outline presentations
   * Each student will deliver a 5-10 minute presentation showing their working data set and at least one output from their proposed data analysis
-* ***Assignments:***
+* ###### ***Assignments:***
+  
   * Presentation slides must be uploaded **before** the start of lecture on Monday
   * Capstone outlines are due at the **end** of this week (Friday) to give you extra time to prepare
   * Read *Local Transportation Policy and Economic Opportunity* by Turner (2019) by next class
@@ -426,4 +427,4 @@ As soon as you feel shaking, DROP, COVER and HOLD ON: Immediately seek shelter (
 
 When you need help Immediately or to report a dangerous situation, CALL 911. University Police non-emergency line: (657) 278-2515
 
-For more information: Ask your instructor, or go to Campus Preparedness website
+##### For more information: Ask your instructor, or go to Campus Preparedness website
