@@ -17,7 +17,7 @@ The overarching goal of this course is to develop your ability to consume and pr
 - **Office:** SGMH 3340
 - **E-mail:** [tmackay@fullerton.edu](mailto:tmackay@fullerton.edu)
 - **Office Hours:**
-  - Wednesdays from 3:45 to 6:45 PM
+  - Wednesdays from 4:15 to 6:45 PM
   - Also available by appointment for Zoom meetings
 
 ### Pre/Co-Requisites
