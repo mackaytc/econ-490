@@ -75,18 +75,23 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 ## Week 8: _Wednesday (10/14)_
 
-**Topics:** Capstone Lab Activity 1 — building your working data set
+**Topics:** Building a working data set; producing tables and figures with CPS data
 
-- We'll spend most of class working directly with your capstone data. Bring your data source and any code you've written so far.
-- [Data Analysis Output Handout](handouts/ECON%20490%20R%20HW%20-%20Data%20Analysis%20Output%20Handout.pdf)
-  - Guide for producing tables and other output you can drop straight into your paper
-- Your working data set and summary statistics table are submitted before the end of class
+- [Capstone Lab Activity 1 Handout](handouts/ECON-490-Capstone-Lab-1.md)
+  - Instructions, output formatting rules, and the submission checklist
+- [Capstone Lab Activity 1 (R Code)](coding-activities/ECON-490-Capstone-Lab-1.R)
+  - We'll work through the CPS data together during class
+- Download the CPS data set and documentation from Canvas before class
+- Your table, figure, and regression output are submitted before the end of class
 
 ## Week 9: _Wednesday (10/21)_
 
-**Topics:** Capstone Lab Activity 2 — estimating your main specification
+**Topics:** Estimating your main specification; interpreting regression output
 
-- Building on the data set from Week 8, you'll estimate your main specification and produce the table and figure you'll use in your outline and final paper
+- [Capstone Lab Activity 2 Handout](handouts/ECON-490-Capstone-Lab-2.md)
+  - Instructions, the three-column regression table, and the submission checklist
+- [Capstone Lab Activity 2 (R Code)](coding-activities/ECON-490-Capstone-Lab-2.R)
+  - Bring your own data and any code you've written so far
 - Your results table and figure are submitted before the end of class
 
 ## Week 10: _Wednesday (10/28)_

@@ -102,9 +102,9 @@ The grade breakdown is as follows:
 - For the capstone project, you will demonstrate your ability to create new economic knowledge and convey this knowledge in both (1) written form via your capstone paper and (2) orally via a professional, "economics-style" presentation to the class. This project may be completed either individually or working with a partner.
 - You will complete several intermediate assignments throughout the semester as part of completing your capstone paper, each of which will contribute to your final grade. These assignments are listed below along with respective due dates and their contributions to your final grade:
   - **Research Proposal** due Wednesday, 10/7 (5% of final grade): You will complete a worksheet summarizing your proposed capstone paper research question and data analysis plan. Proposals must receive my approval before proceeding to subsequent capstone assignments.
-  - **Capstone Lab Activity 1** completed in class on Wednesday, 10/14 (5% of final grade): You will build the working data set for your capstone paper and produce a table of summary statistics describing it. You'll submit your R code and your table before leaving class.
-  - **Capstone Lab Activity 2** completed in class on Wednesday, 10/21 (5% of final grade): You will estimate the main specification for your capstone paper and produce a results table and at least one figure. You'll submit your R code, table, and figure before leaving class.
-    - The output you produce in both lab activities feeds directly into your outline and final paper, so bring your data and any code you've written so far.
+  - **Capstone Lab Activity 1** completed in class on Wednesday, 10/14 (5% of final grade): Working with Current Population Survey data, you will build a data set, produce a summary statistics table and a figure, and estimate a regression. You'll submit your R code and a formatted Word document before leaving class.
+  - **Capstone Lab Activity 2** completed in class on Wednesday, 10/21 (5% of final grade): Using your own data, you will estimate the main specification for your capstone paper and produce a results table and at least one figure. You'll submit your R code, table, and figure before leaving class.
+    - The output you produce in Lab Activity 2 feeds directly into your outline and final paper, so bring your data and any code you've written so far.
   - **Outline Presentation** delivered in class on Wednesday, 11/4 (2.5% of final grade): A 5-10 minute presentation in which you introduce your research question to the class, describe your working data set, and discuss at least one result from your data analysis output. Slides must be uploaded before the start of class.
   - **Outline** due Friday, 11/6 (7.5% of final grade): Bullet-point-formatted outline of your capstone paper, with descriptions of each component of the paper and preliminary results from your data analysis. The deadline falls at the end of the week to give you time to revise after presenting.
   - **Final Presentations** during Weeks 14 and 15 (10% of final grade): 15-minute presentation delivered in class addressing your research question, motivation and existing evidence, analytical approach, and findings.
@@ -249,15 +249,15 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 
 ### ***Week 8*** *(October 14)*
 
-* ***Topics:*** Capstone Lab Activity 1 – building your working data set
-  * We'll spend the bulk of class working directly with your capstone data. Bring your data source and any code you've written so far.
+* ***Topics:*** Capstone Lab Activity 1. Building a working data set with Current Population Survey data
+  * We'll work through a complete data analysis together during class. Download the CPS data set and documentation from Canvas before class.
 * ***Assignments:***
-  * Working data set and summary statistics table submitted before the end of class
+  * Summary statistics table, figure, and regression output submitted before the end of class
 
 ### ***Week 9*** *(October 21)*
 
-* ***Topics:*** Capstone Lab Activity 2 – estimating your main specification
-  * Building on the data set from Week 8, you'll estimate your main specification and produce the table and figure you'll use in your outline and final paper.
+* ***Topics:*** Capstone Lab Activity 2. Estimating your main specification
+  * You'll run the Week 8 pipeline on your own data and produce the table and figure you'll use in your outline and final paper. Bring your data file and any code you've written so far.
 * ***Assignments:***
   * Results table and figure submitted before the end of class
 
