@@ -2,7 +2,7 @@
 
 This repository contains course materials for ECON 490 Economics Capstone at Cal State Fullerton (Fall 2026). Materials include lecture slides, R coding activities, and readings covering econometrics, data analysis, and applied economics topics including housing and minimum wages. You can find a link for the [syllabus here](https://github.com/mackaytc/econ-490/blob/main/ECON%20490%20Syllabus%20-%20Fall%202026.md).
 
-Each week, I'll post links for lecture slides and R coding-related material below. Coding activities and other homework assignments should be submitted via Canvas.
+Each week, I'll post links for lecture slides and R coding-related material below. The R coding activities are not graded, but they're strongly recommended and you're encouraged to submit them via Canvas for feedback.
 
 ## Week 1: _Wednesday (8/26)_
 
@@ -10,32 +10,38 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 - Course Overview Slides _(updating)_ <!--relink:[Course Overview Slides](slides/ECON%20490%20Slides%20-%20Course%20Overview.pdf)-->
 - Intro to Metrics and Data Analysis with R Slides _(updating)_ <!--relink:[Intro to Metrics and Data Analysis with R Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Intro%20to%20Metrics%20and%20Data%20Analysis%20with%20R.pdf)-->
+  - In-class activity: get R and RStudio installed and running
 - Coding Activity 1 _(updating)_ <!--relink:[Coding Activity 1](coding-activities/ECON-490-Coding-Activity-1.R)-->
-  - Homework due next week (submit via Canvas)
+  - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
 ## Week 2: _Wednesday (9/2)_
 
-**Topics:** Regression review; economics of housing
+**Topics:** Regression review
 
 - Regression Review Pt 1 Slides _(updating)_ <!--relink:[Regression Review Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%201.pdf)-->
-- Economics of Housing Introduction Slides _(updating)_ <!--relink:[Economics of Housing Introduction Slides](modules/housing/ECON%20490%20Slides%20-%20Economics%20of%20Housing%20Introduction.pdf)-->
-- The Economic Implications of Housing Supply (Glaeser and Gyourko 2018) _(updating)_ <!--relink:[The Economic Implications of Housing Supply (Glaeser and Gyourko 2018)](modules/housing/The%20Economic%20Implications%20of%20Housing%20Supply%20(Glaeser%20and%20Gyourko%202018).pdf)-->
-  - Assigned reading for next week
 - Coding Activity 2 _(updating)_ <!--relink:[Coding Activity 2](coding-activities/ECON-490-Coding-Activity-2.R)-->
-  - Homework due next week (submit via Canvas)
+  - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
 ## Week 3: _Wednesday (9/9)_
 
 **Topics:** Regression review (cont.); economics of housing
 
 - Regression Review Pt 2 Slides _(updating)_ <!--relink:[Regression Review Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%202.pdf)-->
+- Economics of Housing Introduction Slides _(updating)_ <!--relink:[Economics of Housing Introduction Slides](modules/housing/ECON%20490%20Slides%20-%20Economics%20of%20Housing%20Introduction.pdf)-->
+- The Economic Implications of Housing Supply (Glaeser and Gyourko 2018) _(updating)_ <!--relink:[The Economic Implications of Housing Supply (Glaeser and Gyourko 2018)](modules/housing/The%20Economic%20Implications%20of%20Housing%20Supply%20(Glaeser%20and%20Gyourko%202018).pdf)-->
+  - Assigned reading for next week
+- Coding Activity 3 _(updating)_ <!--relink:[Coding Activity 3](coding-activities/ECON-490-Coding-Activity-3.R)-->
+  - Recommended practice for next week; submit via Canvas for feedback (not graded)
+
+## Week 4: _Wednesday (9/16)_
+
+**Topics:** Economics of housing (cont.); housing supply constraints and policy
+
 - Glaeser and Gyourko (2018) Paper Slides _(updating)_ <!--relink:[Glaeser and Gyourko (2018) Paper Slides](modules/housing/ECON%20490%20Paper%20Slides%20-%20Glaeser%20and%20Gyourko%20(2018).pdf)-->
 - The Elusive Employment Effect of the Minimum Wage (Manning 2021) _(updating)_ <!--relink:[The Elusive Employment Effect of the Minimum Wage (Manning 2021)](modules/minimum-wages/The%20Elusive%20Employment%20Effect%20of%20the%20Minimum%20Wage%20(Manning%202021).pdf)-->
   - Assigned reading for next week (you can skip the international section)
-- Coding Activity 3 _(updating)_ <!--relink:[Coding Activity 3](coding-activities/ECON-490-Coding-Activity-3.R)-->
-  - Homework due next week (submit via Canvas)
 
-## Week 4: _Wednesday (9/16)_
+## Week 5: _Wednesday (9/23)_
 
 **Topics:** Omitted variable bias and causal inference; minimum wages
 
@@ -43,20 +49,14 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 - Minimum Wages and OVB (R Code) _(updating)_ <!--relink:[Minimum Wages and OVB (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20OVB.R)-->
   - In-class exercise (not a homework assignment)
 
-## Week 5: _Wednesday (9/23)_
+## Week 6: _Wednesday (9/30)_
 
-**Topics:** Inference basics; minimum wages
+**Topics:** Inference basics; minimum wages; capstone project introduction
 
 - Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
 - Minimum Wages and TWFE (R Code) _(updating)_ <!--relink:[Minimum Wages and TWFE (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20TWFE.R)-->
   - In-class exercise (not a homework assignment)
-
-## Week 6: _Wednesday (9/30)_
-
-**Topics:** Capstone project introduction; practical data analysis tips
-
 - Capstone Project Introduction Slides _(updating)_ <!--relink:[Capstone Project Introduction Slides](slides/ECON%20490%20Slides%20-%20Capstone%20Project%20Introduction.pdf)-->
-- Practical Data Analysis Tips Pt 1 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)-->
 - Capstone Proposal Activity _(updating)_ <!--relink:[Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)-->
   - In-class brainstorming worksheet for capstone project ideas
 - AI Prompt for Capstone Proposal Feedback _(updating)_ <!--relink:[AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)-->
@@ -67,11 +67,12 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 **Topics:** Practical data analysis tips; exploring variation with interaction terms
 
+- Practical Data Analysis Tips Pt 1 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)-->
 - Practical Data Analysis Tips Pt 2 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)-->
 - Using Interaction Terms Slides _(updating)_ <!--relink:[Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)-->
   - Interactions in regressions are an easy way to implement the concept of exploring variation
 - Coding Activity 4 _(updating)_ <!--relink:[Coding Activity 4](coding-activities/ECON-490-Coding-Activity-4.R)-->
-  - Homework due next week (submit via Canvas)
+  - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
 ## Week 8: _Wednesday (10/14)_
 

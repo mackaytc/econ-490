@@ -70,9 +70,11 @@ Final grades will be calculated according to the following table:
 
 | *Category/Assignment* | *Percentage of Final Grade* |
 | --------------------- | --------------------------- |
-| Capstone Project      | 45%                         |
-| Homework              | 10%                         |
-| In-Class Activities   | 45%                         |
+| Capstone Project      | 40%                         |
+| In-Class Activities   | 40%                         |
+| Attendance            | 20%                         |
+
+The R coding activities described below are not graded and do not count towards your final grade. They are, however, strongly recommended, since they build the specific R skills that the capstone lab activities and your final paper depend on.
 
 ### Grading Standards and Criteria
 
@@ -106,25 +108,25 @@ The grade breakdown is as follows:
   - **Capstone Lab Activity 2** completed in class on Wednesday, 10/21 (5% of final grade): Using your own data, you will estimate the main specification for your capstone paper and produce a results table and at least one figure. You'll submit your R code, table, and figure before leaving class.
     - The output you produce in Lab Activity 2 feeds directly into your outline and final paper, so bring your data and any code you've written so far.
   - **Outline Presentation** delivered in class on Wednesday, 11/4 (2.5% of final grade): A 5-10 minute presentation in which you introduce your research question to the class, describe your working data set, and discuss at least one result from your data analysis output. Slides must be uploaded before the start of class.
-  - **Outline** due Friday, 11/6 (7.5% of final grade): Bullet-point-formatted outline of your capstone paper, with descriptions of each component of the paper and preliminary results from your data analysis. The deadline falls at the end of the week to give you time to revise after presenting.
-  - **Final Presentations** during Weeks 14 and 15 (10% of final grade): 15-minute presentation delivered in class addressing your research question, motivation and existing evidence, analytical approach, and findings.
+  - **Outline** due Friday, 11/6 (5% of final grade): Bullet-point-formatted outline of your capstone paper, with descriptions of each component of the paper and preliminary results from your data analysis. The deadline falls at the end of the week to give you time to revise after presenting.
+  - **Final Presentations** during Weeks 14 and 15 (7.5% of final grade): 15-minute presentation delivered in class addressing your research question, motivation and existing evidence, analytical approach, and findings.
   - **Final Paper** due Friday, 12/18 (10% of final grade): 8-to-10-page essay written as an economics-style research article in which you identify a research question, cite, and synthesize existing economics literature, and conduct and interpret your own economic analysis.
 - **NOTE:** You must receive my approval for your proposed research question identified in your Research Proposal in order to receive credit for any subsequent components of the capstone paper. Failure to do so will result in a 0 for all subsequent components and an automatic failing grade for the course.
 
-### Homework
+### Coding Activities
 
-- Homework in this course takes the form of shorter-format R coding activities, which together count for 10% of your final grade.
-- We will complete 4 coding activities to give you the tools needed to complete the capstone paper, with each activity weighted equally at 2.5% of your final grade.
-  - I will introduce each activity during the class in which it is assigned and highlight any required packages, functions, and data you will need to complete the activity. You will then complete and submit your code for the activity prior to the start of next class.
+- The R coding activities are shorter-format assignments that build the specific R skills you'll need for the capstone labs and your final paper. **These activities are not graded and do not count towards your final grade.** They are, however, strongly recommended.
+- We will complete 4 coding activities over the course of the semester. Each one is posted to Canvas with a due date so you can pace yourself, and you are encouraged to submit your code so that I can review it and give you feedback.
+  - I will introduce each activity during the class in which it is assigned and highlight any required packages, functions, and data you will need to complete the activity. You should then plan to complete the activity prior to the start of next class.
   - These assignments will make use of R + RStudio. I've posted several options for you to get access to RStudio. You are not required to bring a laptop to lecture although you are encouraged to do so if possible.
   - Each activity will include instructions that clearly detail the requirements and expectations for that activity.
-- Grading for the coding activities will be based on (1) completion and (2) accuracy.
-  - With regards to accuracy, it is important that you use the specific tools described in each activity (meaning, for example, that you use `tidyverse` functions where specified instead of Base R functions or other alternatives).
-  - A detailed rubric will be available on Canvas detailing expectations and grading for each activity. Solutions for each activity will be posted to Canvas following the posted due date.
+- Because these activities are ungraded, there is no penalty for a late or missing submission. There is also no substitute for the practice: the Week 8 and Week 9 capstone lab activities *are* graded, and they assume you can already do what these activities cover.
+  - It is important that you use the specific tools described in each activity (meaning, for example, that you use `tidyverse` functions where specified instead of Base R functions or other alternatives).
+  - Solutions for each activity will be posted to Canvas following the posted due date. The material covered in the coding activities is also fair game for the weekly quizzes.
 
 ### In-Class Activities
 
-- Each week, we will complete a graded, in-class activity that you will submit to demonstrate that you are following along with the course material and required reading. The in-class activities together are worth 45% of your final grade.
+- Each week, we will complete a graded, in-class activity that you will submit to demonstrate that you are following along with the course material and required reading. The in-class activities together are worth 40% of your final grade.
 - Weekly activities will include either a 1) quiz or a 2) coding-based activity.
   - The quizzes will be roughly 1-2 pages long and will cover the assigned reading material for the current week and course content from the prior week. The quizzes will feature a mixture of short-answer, multiple choice, and definition-based questions. All quizzes will be completed individually, with no notes or other study materials available.
   - In-class coding activities will be self-contained R coding activities that you will complete and submit in class during the class in which they are assigned. You will be allowed to work with your classmates, but each student must submit their own code file.
@@ -136,16 +138,36 @@ The grade breakdown is as follows:
   - In the event that you miss class due to one of the documented circumstances above, it is your responsibility to contact the professor and schedule a time to appear in person to complete the missed activity *prior* to the end of next week's lecture.
     - You will have up to one week through the end of the following week's lecture to schedule and complete the missed activity for full credit (i.e., if you miss lecture in Week 3, you can complete the activity at some point before the end of lecture in Week 4, including prior to Week 4's lecture or during break).
     - If you do not complete the missed activity within 1 week of the missed lecture, you will receive a 0 with no possibility of later make-up credit.
-- ***Professional Conduct Policy:*** Students who are disruptive during class, disrespectful in their interactions with other students during class, or unprofessional in interactions with peers or the professor in any setting including class, office hours, and verbal or electronic communication including email, or otherwise impede the ability of others to learn, will face deductions to the In-Class Activities component of their final grade.
-  - Behavior which meets any of the criteria listed above will receive formal notice from the professor via an email documenting the date and nature of the incident. The email subject line will read "ECON 490: Professional Conduct Notice" and will summarize the conduct policy, briefly state the reason for the notice, and state the associated grade penalty.
-  - For the first violation, students will lose 5 percent of their overall possible In-Class Activities score. Subsequent violations will face escalating penalties in addition to prior penalties: for the 2nd violation, students will face a penalty of 20 percent, for a total deduction to their overall In-Class Activities score of 25 percent (5 percent for the first violation and 20 percent for the second). For the third violation, students will face an additional penalty of 25 percent, and in the event of a fourth violation, students will be penalized the remaining 50 percent of their overall In-Class Activities score.
-  - As an example, a student who incurs 4 violations loses 100 percent of their possible In-Class Activities score, meaning that they can earn no more than 55 percent in the class overall (i.e., if they score 100 percent on all other grade categories and a 0 percent for the In-Class Activities category which counts for 45 percent of their final grade, they will earn a 55 percent in the class overall).
-  - Behavior which is not appropriate for a professional, academic setting that does not rise to the level of violating the professional conduct policy, such as arriving to class more than 10 minutes late, leaving early without explanation, sleeping during class, etc., may result in receiving a 0 for that week's in-class activity (although this deduction will *not* count towards the cumulative penalties for larger infractions listed above).
+- In-class activities are graded on their own terms. Deductions to your attendance score under the professional conduct policy described below do *not* reduce your in-class activity score, and you remain eligible to earn in-class activity credit for any week in which you complete the activity.
 
+### Attendance
+
+- Attendance will be recorded each week. Your score on the attendance portion of your final grade is based on 1) your attendance in class and 2) following the "Classroom Technology Policy" and "Professional Conduct Policy" guidelines listed below.
+  - Weekly attendance in total is worth 20% of your final grade. There are 12 in-person class meetings this semester (Weeks 1 through 9, Week 11, and Weeks 14 and 15), and each week is counted equally, so that each attendance score contributes roughly 1.67% to your final grade, assuming that you meet the classroom conduct guidelines in each week.
+  - There is no graded attendance in Weeks 10, 12, and 13, since we do not hold a regular class meeting during those weeks.
+  - Each student will receive 1 excused absence automatically. In addition, absences covered by either of the two following circumstances will also be excused:
+    1. A medical issue affecting either you or an immediate family member for which you have documentation (i.e., a doctor's note, etc.).
+    2. A documented scheduling conflict for student athletes based on official documentation from Athletics Academic Services, in which one of the "Actual Missed Classes" listed in your "Missed Class Time Contract" specifically falls on a class meeting day.
+  - Behavior which is not appropriate for a professional, academic setting that does not rise to the level of violating the professional conduct policy, such as arriving to class more than 10 minutes late, leaving early without explanation, sleeping during class, etc., may result in not receiving attendance credit for the week (although students will still be eligible to earn in-class activity credit if they complete the activity for the week and the deduction will *not* count towards the cumulative penalties for larger infractions listed below).
+
+### Classroom Technology Policy
+
+- I will provide printed lecture handouts for every lecture. You do not need a laptop, tablet, or phone to follow along with lecture material or to take notes.
+- As a result, laptops, tablets, phones, and other electronic devices may **not** be used during the lecture portion of our class meetings. Devices should be closed and put away.
+- Devices are welcome, and often necessary, during the non-lecture portions of class: in-class coding activities, capstone lab activities, the capstone proposal activity, and the break.
+- I will tell you clearly when we move from lecture into an activity, so there should never be any ambiguity about when your laptop can be open.
+- Using a device during lecture is a violation of the professional conduct policy below and will result in the loss of your attendance credit for that week.
+
+### Professional Conduct Policy
+
+- Students who are disruptive during class, disrespectful in their interactions with other students during class, unprofessional in interactions with peers or the professor in any setting including class, office hours, and verbal or electronic communication including email, or who otherwise impede the ability of others to learn, will face deductions to the Attendance component of their final grade. Failure to follow the classroom technology policy above also falls under this policy.
+  - Behavior which meets any of the criteria listed above will receive formal notice from the professor via an email documenting the date and nature of the incident. The email subject line will read "ECON 490: Professional Conduct Notice" and will summarize the conduct policy, briefly state the reason for the notice, and state the associated grade penalty.
+  - For the first violation, students will lose 5 percent of their overall possible Attendance score. Subsequent violations will face escalating penalties in addition to prior penalties: for the 2nd violation, students will face a penalty of 20 percent, for a total deduction to their overall Attendance score of 25 percent (5 percent for the first violation and 20 percent for the second). For the third violation, students will face an additional penalty of 25 percent, and in the event of a fourth violation, students will be penalized the remaining 50 percent of their overall Attendance score.
+  - As an example, a student who incurs 4 violations loses 100 percent of their possible Attendance score, meaning that they can earn no more than 80 percent in the class overall (i.e., if they score 100 percent on all other grade categories and a 0 percent for the Attendance category which counts for 20 percent of their final grade, they will earn an 80 percent in the class overall).
 
 ### Late Assignments
 
-All homework and capstone assignments submitted after their assigned due date will receive a 10-percentage point reduction for each day late. Late submissions will be accepted no later than 7 days after their initial due date, after which time no assignments will be accepted (and no subsequent make-up credit will be offered).
+All capstone assignments submitted after their assigned due date will receive a 10-percentage point reduction for each day late. Late submissions will be accepted no later than 7 days after their initial due date, after which time no assignments will be accepted (and no subsequent make-up credit will be offered).
 
 If you are scheduled to present during class and are unable to attend due to an emergency, please email me immediately to reschedule. Please include a copy of your slides or other presentation materials with your email prior to the class during which you're scheduled to present. As a general rule, I will plan to reschedule any missed presentations for the following class. Failure to provide presentation slides prior to your scheduled presentation date will result in a 20-percentage point reduction in your overall grade for the assignment. You are welcome to edit or update your slides prior to presenting in a subsequent class.
 
@@ -198,54 +220,55 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 * ***Reading:***
   * *Learning to Speak R* – course handout (posted on Canvas)
 * ***Assignments:***
-  * Coding Activity 1 due by the start of next class
+  * In-class activity: get R and RStudio installed and running
+  * Coding Activity 1 recommended by the start of next class
 
 ### ***Week 2*** *(September 2)*
 
-* ***Module:*** Housing (Part 1)
-* ***Topics:*** Connecting Southern California housing affordability and development to economics research; introduction to housing economics; regression review and interpretation
+* ***Topics:*** Regression review and interpretation (part 1)
 * ***Assignments:***
   * Quiz on metrics/related lecture material to start class
-  * Read *The Economic Implications of Housing Supply* by Glaeser and Gyourko (2018) by next class; this reading will be covered by the quiz at the start of next week
-  * Coding Activity 2 due by the start of next class
+  * Coding Activity 2 recommended by the start of next class
 
 ### ***Week 3*** *(September 9)*
 
+* ***Module:*** Housing (Part 1)
+* ***Topics:*** Connecting Southern California housing affordability and development to economics research; introduction to housing economics; regression review (part 2) and OLS with controls
+* ***Assignments:***
+  * Quiz on metrics/related lecture material to start class
+  * Read *The Economic Implications of Housing Supply* by Glaeser and Gyourko (2018) by next class; this reading will be covered by the quiz at the start of next week
+  * Coding Activity 3 recommended by the start of next class
+
+### ***Week 4*** *(September 16)*
+
 * ***Module:*** Housing (Part 2)
-* ***Topics:*** OLS with controls; housing supply constraints and policy implications (Glaeser & Gyourko)
+* ***Topics:*** Housing supply constraints and policy implications; discussion of Glaeser & Gyourko (2018)
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
   * Read *The Elusive Employment Effect of the Minimum Wage* by Manning (2021) by next class; this reading will be covered by the quiz at the start of next week (you can skip the international section)
-  * Coding Activity 3 due by the start of next class
 
-### ***Week 4*** *(September 16)*
+### ***Week 5*** *(September 23)*
 
 * ***Module:*** Minimum Wages (Part 1)
 * ***Topics:*** Omitted variable bias and causal inference; connecting California's fast food minimum wage to economics research; introduction to minimum wage economics
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
 
-### ***Week 5*** *(September 23)*
-
-* ***Module:*** Minimum Wages (Part 2)
-* ***Topics:*** Inference basics; panel data, fixed effects, and two-way fixed effects (TWFE) estimation
-* ***Assignments:***
-  * Quiz on metrics/related lecture material to start class
-
 ### ***Week 6*** *(September 30)*
 
-* ***Topics:*** Capstone project overview; practical data analysis advice (part 1); identifying research questions and locating data
+* ***Module:*** Minimum Wages (Part 2)
+* ***Topics:*** Inference basics; panel data, fixed effects, and two-way fixed effects (TWFE) estimation; capstone project overview and identifying research questions
 * ***Assignments:***
   * Capstone proposal activity completed and submitted in class
   * Capstone research proposal due at the start of next class
 
 ### ***Week 7*** *(October 7)*
 
-* ***Topics:*** Practical data analysis advice (part 2); exploring variation with interaction terms
+* ***Topics:*** Practical data analysis advice (parts 1 and 2); locating data; exploring variation with interaction terms
 * ***Assignments:***
   * Quiz on metrics/related lecture material to start class
   * Capstone research proposal due at the start of lecture
-  * Coding Activity 4 due by the start of next class
+  * Coding Activity 4 recommended by the start of next class
 
 ### ***Week 8*** *(October 14)*
 
