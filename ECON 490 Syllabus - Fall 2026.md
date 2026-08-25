@@ -103,12 +103,13 @@ The grade breakdown is as follows:
 
 - For the capstone project, you will demonstrate your ability to create new economic knowledge and convey this knowledge in both (1) written form via your capstone paper and (2) orally via a professional, "economics-style" presentation to the class. This project may be completed either individually or working with a partner.
 - You will complete several intermediate assignments throughout the semester as part of completing your capstone paper, each of which will contribute to your final grade. These assignments are listed below along with respective due dates and their contributions to your final grade:
-  - **Research Proposal** due Wednesday, 10/7 (5% of final grade): You will complete a worksheet summarizing your proposed capstone paper research question and data analysis plan. Proposals must receive my approval before proceeding to subsequent capstone assignments.
-  - **Capstone Lab Activity 1** completed in class on Wednesday, 10/14 (5% of final grade): Working with Current Population Survey data, you will build a data set, produce a summary statistics table and a figure, and estimate a regression. You'll submit your R code and a formatted Word document before leaving class.
-  - **Capstone Lab Activity 2** completed in class on Wednesday, 10/21 (5% of final grade): Using your own data, you will estimate the main specification for your capstone paper and produce a results table and at least one figure. You'll submit your R code, table, and figure before leaving class.
-    - The output you produce in Lab Activity 2 feeds directly into your outline and final paper, so bring your data and any code you've written so far.
+  - **Research Proposal** due Friday, 10/9 (5% of final grade): You will complete a worksheet summarizing your proposed capstone paper research question and data analysis plan. Proposals must receive my approval before proceeding to subsequent capstone assignments.
+    - You'll work through the proposal activity in class on Wednesday (10/7), and the deadline falls at the end of that week to give you time to write up your responses.
+  - **Capstone Data Lab** completed in class on Wednesday, 10/21 (7.5% of final grade): Using your own data, you will estimate the main specification for your capstone paper and produce a results table and at least one figure. You'll submit your R code, table, and figure before leaving class.
+    - The output you produce in the data lab feeds directly into your outline and final paper, so bring your data and any code you've written so far.
+    - We'll run through this same pipeline together on Current Population Survey data the week before (Week 8) as an in-class activity, so you'll have already done it once before working with your own data.
   - **Outline Presentation** delivered in class on Wednesday, 11/4 (2.5% of final grade): A 5-10 minute presentation in which you introduce your research question to the class, describe your working data set, and discuss at least one result from your data analysis output. Slides must be uploaded before the start of class.
-  - **Outline** due Friday, 11/6 (5% of final grade): Bullet-point-formatted outline of your capstone paper, with descriptions of each component of the paper and preliminary results from your data analysis. The deadline falls at the end of the week to give you time to revise after presenting.
+  - **Outline** due Friday, 11/6 (7.5% of final grade): Bullet-point-formatted outline of your capstone paper, with descriptions of each component of the paper and preliminary results from your data analysis. The deadline falls at the end of the week to give you time to revise after presenting.
   - **Final Presentations** during Weeks 14 and 15 (7.5% of final grade): 15-minute presentation delivered in class addressing your research question, motivation and existing evidence, analytical approach, and findings.
   - **Final Paper** due Friday, 12/18 (10% of final grade): 8-to-10-page essay written as an economics-style research article in which you identify a research question, cite, and synthesize existing economics literature, and conduct and interpret your own economic analysis.
 - **NOTE:** You must receive my approval for your proposed research question identified in your Research Proposal in order to receive credit for any subsequent components of the capstone paper. Failure to do so will result in a 0 for all subsequent components and an automatic failing grade for the course.
@@ -120,18 +121,20 @@ The grade breakdown is as follows:
   - I will introduce each activity during the class in which it is assigned and highlight any required packages, functions, and data you will need to complete the activity. You should then plan to complete the activity prior to the start of next class.
   - These assignments will make use of R + RStudio. I've posted several options for you to get access to RStudio. You are not required to bring a laptop to lecture although you are encouraged to do so if possible.
   - Each activity will include instructions that clearly detail the requirements and expectations for that activity.
-- Because these activities are ungraded, there is no penalty for a late or missing submission. There is also no substitute for the practice: the Week 8 and Week 9 capstone lab activities *are* graded, and they assume you can already do what these activities cover.
+- Because these activities are ungraded, there is no penalty for a late or missing submission. There is also no substitute for the practice: the Week 8 CPS data lab activity and the Week 9 capstone data lab *are* graded, and they assume you can already do what these activities cover.
   - It is important that you use the specific tools described in each activity (meaning, for example, that you use `tidyverse` functions where specified instead of Base R functions or other alternatives).
   - Solutions for each activity will be posted to Canvas following the posted due date. The material covered in the coding activities is also fair game for the weekly quizzes.
 
 ### In-Class Activities
 
-- Each week, we will complete a graded, in-class activity that you will submit to demonstrate that you are following along with the course material and required reading. The in-class activities together are worth 40% of your final grade.
-- Weekly activities will include either a 1) quiz or a 2) coding-based activity.
+- Each week, we will complete a graded, in-class activity that you will submit to demonstrate that you are following along with the course material and required reading. There are 11 in-class activities over the course of the semester, and together they are worth 40% of your final grade.
+- Weekly activities will take one of three forms: a 1) quiz, a 2) coding-based activity, or a 3) presentation-day activity.
   - The quizzes will be roughly 1-2 pages long and will cover the assigned reading material for the current week and course content from the prior week. The quizzes will feature a mixture of short-answer, multiple choice, and definition-based questions. All quizzes will be completed individually, with no notes or other study materials available.
   - In-class coding activities will be self-contained R coding activities that you will complete and submit in class during the class in which they are assigned. You will be allowed to work with your classmates, but each student must submit their own code file.
+  - On the three presentation days (Weeks 11, 14, and 15), the weekly activity is the presentation itself: everyone who uploads their slides before the posted deadline and attends class that night receives full credit for the activity.
   - A detailed answer key will be provided for each weekly activity quiz/R coding activity via Canvas. All submissions will be graded prior to the start of next week.
 - In-class activities must be completed during the class in which they are assigned. There are no late submissions for in-class activities. At the end of the semester, I will drop the lowest in-class activity score for everyone, so students will effectively have one excused absence. Additional policies regarding attendance and excused absences are listed below.
+  - The one exception is the Week 8 CPS data lab activity, which is *not* eligible to be dropped. That activity is a full session of guided work that you will repeat on your own data the following week, so there is no version of this course in which skipping it is a good idea.
   - In addition to the dropped lowest score, absences covered by either of the two following circumstances will also be excused:
     1. A medical issue affecting either you or an immediate family member for which you have documentation (i.e., a doctor's note, etc.).
     2. A documented scheduling conflict for student athletes based on official documentation from Athletics Academic Services, in which one of the "Actual Missed Classes" listed in your "Missed Class Time Contract" specifically falls on a class meeting day.
@@ -257,29 +260,28 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 ### ***Week 6*** *(September 30)*
 
 * ***Module:*** Minimum Wages (Part 2)
-* ***Topics:*** Inference basics; panel data, fixed effects, and two-way fixed effects (TWFE) estimation; capstone project overview and identifying research questions
+* ***Topics:*** Inference basics; panel data, fixed effects, and two-way fixed effects (TWFE) estimation; capstone project overview
 * ***Assignments:***
-  * Capstone proposal activity completed and submitted in class
-  * Capstone research proposal due at the start of next class
+  * Quiz on metrics/related lecture material to start class
 
 ### ***Week 7*** *(October 7)*
 
-* ***Topics:*** Practical data analysis advice (parts 1 and 2); locating data; exploring variation with interaction terms
+* ***Topics:*** Practical data analysis advice (parts 1 and 2); identifying research questions and locating data
 * ***Assignments:***
-  * Quiz on metrics/related lecture material to start class
-  * Capstone research proposal due at the start of lecture
-  * Coding Activity 4 recommended by the start of next class
+  * Capstone proposal activity completed and submitted in class
+  * Capstone research proposal due at the end of this week (Friday, 10/9) to give you time to write up your responses
 
 ### ***Week 8*** *(October 14)*
 
-* ***Topics:*** Capstone Lab Activity 1. Building a working data set with Current Population Survey data
-  * We'll work through a complete data analysis together during class. Download the CPS data set and documentation from Canvas before class.
+* ***Topics:*** Exploring variation with interaction terms; building a working data set with Current Population Survey data
+  * We'll work through a complete data analysis together during class as this week's in-class activity. Download the CPS data set and documentation from Canvas before class.
 * ***Assignments:***
   * Summary statistics table, figure, and regression output submitted before the end of class
+  * Coding Activity 4 recommended by the start of next class
 
 ### ***Week 9*** *(October 21)*
 
-* ***Topics:*** Capstone Lab Activity 2. Estimating your main specification
+* ***Topics:*** Capstone Data Lab. Estimating your main specification
   * You'll run the Week 8 pipeline on your own data and produce the table and figure you'll use in your outline and final paper. Bring your data file and any code you've written so far.
 * ***Assignments:***
   * Results table and figure submitted before the end of class
@@ -294,6 +296,7 @@ I reserve the right to alter any information, assignments, grading criteria, dea
   * Each student will deliver a 5-10 minute presentation showing their working data set and at least one output from their proposed data analysis
 * ***Assignments:***
   * Presentation slides must be uploaded **before** the start of lecture
+  * Uploading your slides on time and attending class earns full credit for this week's in-class activity
   * Capstone outlines are due at the **end** of this week (Friday, 11/6) to give you extra time to prepare
 
 ### ***Week 12*** *(November 11)*
@@ -313,11 +316,15 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 
 * ***Topics:*** Capstone paper research presentations (Pt. 1)
   * In order to ensure everyone has adequate time to present, presentations will be split over Weeks 14 and 15.
+* ***Assignments:***
+  * Presentation slides must be uploaded **before** the start of lecture
+  * Uploading your slides on time and attending class earns full credit for this week's in-class activity
 
 ### ***Week 15*** *(December 9)*
 
 * ***Topics:*** Capstone paper research presentations (Pt. 2)
 * ***Assignments:***
+  * Attending class earns full credit for this week's in-class activity
   * Final capstone papers are due at the end of Finals week (Friday, 12/18)
 
 

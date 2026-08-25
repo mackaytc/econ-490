@@ -57,42 +57,45 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 - Minimum Wages and TWFE (R Code) _(updating)_ <!--relink:[Minimum Wages and TWFE (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20TWFE.R)-->
   - In-class exercise (not a homework assignment)
 - Capstone Project Introduction Slides _(updating)_ <!--relink:[Capstone Project Introduction Slides](slides/ECON%20490%20Slides%20-%20Capstone%20Project%20Introduction.pdf)-->
-- Capstone Proposal Activity _(updating)_ <!--relink:[Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)-->
-  - In-class brainstorming worksheet for capstone project ideas
-- AI Prompt for Capstone Proposal Feedback _(updating)_ <!--relink:[AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)-->
-  - Paste your proposal activity responses into an AI chatbot for structured feedback
-- Capstone research proposal due at the start of class next week
+  - We introduce the capstone project this week; the proposal activity is in class next week
 
 ## Week 7: _Wednesday (10/7)_
 
-**Topics:** Practical data analysis tips; exploring variation with interaction terms
+**Topics:** Practical data analysis tips; identifying research questions and locating data
 
 - Practical Data Analysis Tips Pt 1 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)-->
 - Practical Data Analysis Tips Pt 2 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)-->
-- Using Interaction Terms Slides _(updating)_ <!--relink:[Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)-->
-  - Interactions in regressions are an easy way to implement the concept of exploring variation
-- Coding Activity 4 _(updating)_ <!--relink:[Coding Activity 4](coding-activities/ECON-490-Coding-Activity-4.R)-->
-  - Recommended practice for next week; submit via Canvas for feedback (not graded)
+- Capstone Proposal Activity _(updating)_ <!--relink:[Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)-->
+  - In-class brainstorming worksheet for capstone project ideas; this is this week's in-class activity
+- AI Prompt for Capstone Proposal Feedback _(updating)_ <!--relink:[AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)-->
+  - Paste your proposal activity responses into an AI chatbot for structured feedback
+- Capstone research proposal due Friday (10/9) at the end of this week
 
 ## Week 8: _Wednesday (10/14)_
 
-**Topics:** Building a working data set; producing tables and figures with CPS data
+**Topics:** Exploring variation with interaction terms; building a working data set with CPS data
 
-- Capstone Lab Activity 1 Handout _(updating)_ <!--relink:[Capstone Lab Activity 1 Handout](handouts/ECON-490-Capstone-Lab-1.md)-->
+- Using Interaction Terms Slides _(updating)_ <!--relink:[Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)-->
+  - Interactions in regressions are an easy way to implement the concept of exploring variation
+- CPS Data Lab Handout _(updating)_ <!--relink:[CPS Data Lab Handout](handouts/ECON-490-Capstone-Lab-1.md)-->
   - Instructions, output formatting rules, and the submission checklist
-- Capstone Lab Activity 1 (R Code) _(updating)_ <!--relink:[Capstone Lab Activity 1 (R Code)](coding-activities/ECON-490-Capstone-Lab-1.R)-->
+- CPS Data Lab (R Code) _(updating)_ <!--relink:[CPS Data Lab (R Code)](coding-activities/ECON-490-Capstone-Lab-1.R)-->
   - We'll work through the CPS data together during class
 - Download the CPS data set and documentation from Canvas before class
+- This is this week's in-class activity, and it's the one activity that can't be dropped
 - Your table, figure, and regression output are submitted before the end of class
+- Coding Activity 4 _(updating)_ <!--relink:[Coding Activity 4](coding-activities/ECON-490-Coding-Activity-4.R)-->
+  - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
 ## Week 9: _Wednesday (10/21)_
 
 **Topics:** Estimating your main specification; interpreting regression output
 
-- Capstone Lab Activity 2 Handout _(updating)_ <!--relink:[Capstone Lab Activity 2 Handout](handouts/ECON-490-Capstone-Lab-2.md)-->
+- Capstone Data Lab Handout _(updating)_ <!--relink:[Capstone Data Lab Handout](handouts/ECON-490-Capstone-Lab-2.md)-->
   - Instructions, the three-column regression table, and the submission checklist
-- Capstone Lab Activity 2 (R Code) _(updating)_ <!--relink:[Capstone Lab Activity 2 (R Code)](coding-activities/ECON-490-Capstone-Lab-2.R)-->
+- Capstone Data Lab (R Code) _(updating)_ <!--relink:[Capstone Data Lab (R Code)](coding-activities/ECON-490-Capstone-Lab-2.R)-->
   - Bring your own data and any code you've written so far
+  - You'll run the same pipeline you worked through on CPS data in Week 8
 - Your results table and figure are submitted before the end of class
 
 ## Week 10: _Wednesday (10/28)_
@@ -105,6 +108,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 - Each student delivers a 5-10 minute presentation showing their working data set and at least one result from their data analysis
 - Slides must be uploaded before the start of class
+- Uploading your slides on time and attending class earns full credit for this week's in-class activity
 - Capstone outlines are due at the end of this week (Friday, 11/6)
 
 ## Week 12: _Wednesday (11/11)_
@@ -125,9 +129,11 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 - Presentations are split over Weeks 14 and 15 so everyone has adequate time to present
 - Slides must be uploaded before the start of class
+- Uploading your slides on time and attending class earns full credit for this week's in-class activity
 
 ## Week 15: _Wednesday (12/9)_
 
 **Topics:** Capstone paper research presentations (Pt. 2)
 
+- Attending class earns full credit for this week's in-class activity
 - Final capstone papers are due at the end of Finals week (Friday, 12/18)
