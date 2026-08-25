@@ -199,8 +199,9 @@ High housing costs hurt the whole economy, not just individuals
 
 The paper cites research estimating GDP losses from housing constraints:
 
-- **Hsieh and Moretti (2017):** 9% of GDP lost due to spatial misallocation
+- **Hsieh and Moretti (2017 working paper):** 9% of GDP lost due to spatial misallocation
 - That's potentially **trillions of dollars** in foregone output
+- This is the *pre-publication* estimate G&G rely on — the published version (**Hsieh & Moretti 2019**, *AEJ: Macroeconomics*) revised it down to ~3.7%, and subsequent work disputes the figure in both directions
 
 Glaeser and Gyourko report a range of estimated losses
 - Reflects different assumptions about labor demand elasticity, but even the low end is very large

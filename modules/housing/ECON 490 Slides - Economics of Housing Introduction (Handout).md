@@ -98,13 +98,13 @@ From the journal article we'll read, define three archetypes:
 
 ## Orange County as an Example
 
-**Median home price in Orange County (2024):** ~$1.1 million
+**Median home price in Orange County (2026):** ~$1.25 million
 
-**Physical cost to build a house:** roughly $150-200 per square foot for construction
+**Physical cost to build a house:** roughly $200-300 per square foot for construction
 
-- For a 2,000 sq ft home, that's maybe $300-400K in construction costs — including land improvements.
+- For a 2,000 sq ft home, that's maybe $400-600K in construction costs — including land improvements.
 
-So where does the other $700K+ come from?
+So where does the other $650K+ come from?
 
 </div>
 
@@ -183,7 +183,7 @@ The assigned journal article covers:
 **Homework:** Read the Glaeser and Gyourko article, specifically:
 - Introduction section (first 3 pages) laying out general questions/analysis
 - "Variations in Regulations on Land Use and Building" and "A Closer Look at Three Types of Markets" sections
-- You should be able to describe how demand shifts affects prices in each market type
+- You should be able to describe how demand shifts affect prices in each market type
 
 </div>
 
