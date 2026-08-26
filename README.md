@@ -8,10 +8,10 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 **Topics:** Course overview; introduction to econometrics and data analysis with R
 
-- Course Overview Slides _(updating)_ <!--relink:[Course Overview Slides](slides/ECON%20490%20Slides%20-%20Course%20Overview.pdf)-->
-- Intro to Metrics and Data Analysis with R Slides _(updating)_ <!--relink:[Intro to Metrics and Data Analysis with R Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Intro%20to%20Metrics%20and%20Data%20Analysis%20with%20R.pdf)-->
+- [Course Overview Slides](slides/ECON%20490%20Slides%20-%20Course%20Overview.pdf)
+- [Intro to Metrics and Data Analysis with R Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Intro%20to%20Metrics%20and%20Data%20Analysis%20with%20R.pdf)
   - In-class activity: get R and RStudio installed and running
-- Coding Activity 1 _(updating)_ <!--relink:[Coding Activity 1](coding-activities/ECON-490-Coding-Activity-1.R)-->
+- [Coding Activity 1](coding-activities/ECON-490-Coding-Activity-1.R)
   - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
 ## Week 2: _Wednesday (9/2)_
