@@ -18,7 +18,7 @@
 # Swirl Lessons
 ################################################################################
 
-# Let's start by continuing with several quick lessons from Swirl R. If you 
+# Let's start by continuing with several quick lessons from Swirl. If you 
 # don't have Swirl installed, check the .R code from Coding Activity 1. 
 
 # To get started with the Swirl lessons for this week, run the following lines: 
@@ -97,7 +97,7 @@ q1.vector <- c(124, 233, 7123, 120, 895, 2103, NA, 65, 912)
 
 q1.vector[2:4]
 
-# In addition to using row indices inside brackets, we can also use logical 
+# In addition to using element indices inside brackets, we can also use logical 
 # operators. Suppose we wanted to only select elements that were greater than 
 # 200. We can do this like so: 
 
@@ -116,7 +116,7 @@ q1.vector[!is.na(q1.vector)]
 
 
 
-# Using logical operators, subset q1.vector to only elements with values in
+# Using logical operators, subset q1.vector to only elements with values
 # between 500 and 1000 that are not missing. HINT: Remember that you can combine
 # multiple logical conditions using & (AND) and | (OR).
 
@@ -132,7 +132,7 @@ q1.vector[!is.na(q1.vector)]
 
 
 # Use the mean() function to calculate the average value of the non-missing 
-# elements in the q1.vector. Make sure that your answer returns a numeric
+# elements in q1.vector. Make sure that your answer returns a numeric
 # answer (meaning, your answer should not be NA). 
 
 
@@ -160,10 +160,10 @@ acs.data <- read_csv(data.url)
 
 acs.data <- drop_na(acs.data) %>% 
   filter(hhincome > 0) %>% 
-  filter(age > 20 & age < 60)
+  filter(age >= 20 & age <= 60)
 
 # You can find a list of the variables included with this data set, and their
-# coding + definitions, on the Canvas page for this Assignment. 
+# coding + definitions, on the Canvas page for this assignment. 
 
 
 
@@ -171,8 +171,8 @@ acs.data <- drop_na(acs.data) %>%
 # Question 2: Summary Statistics with tidyverse
 ################################################################################
 
-# We can use the summarize() from tidyverse to calculate a wide range of summary 
-# statistics. Let's look at an example: 
+# We can use the summarize() function from tidyverse to calculate a wide range 
+# of summary statistics. Let's look at an example: 
 
 summarize(acs.data, 
           mean.renter = mean(renter), 
@@ -221,6 +221,7 @@ summary.stats
 
 
 
+
 ################################################################################
 # Question 3: Selecting Columns with tidyverse
 ################################################################################
@@ -240,7 +241,7 @@ view(new.data.frame)
 
 rm(new.data.frame)
 
-# In the space provided below, use the select command to select just the age 
+# In the space provided below, use the select() function to select just the age 
 # and education variables. Here, you don't need to save your output as a new 
 # object - just start your code with select() and the output will print in the 
 # Console window. 
@@ -263,7 +264,7 @@ select(acs.data, -renter)
 
 # Suppose we wanted to filter out observations of our data set according to some
 # criteria. As an example, suppose we wanted to create a data set that only
-# included observations who were renters. 
+# included observations that were renters. 
 
 # We can use the filter() function to do this:
 
@@ -277,7 +278,7 @@ table(renter.data$renter)
 
 # In the space provided below, use the rm() function to remove the renter.data
 # data set we just created. Then, create a new data set named subset.data that
-# only includes observations who are employed. 
+# only includes observations that are employed. 
 
 
 
@@ -285,7 +286,7 @@ table(renter.data$renter)
 
 # You can combine multiple logical criteria using the & ("and") and | ("or")
 # operators. In the space provided below, use the filter function to subset 
-# our data to only include observations who are unemployed and older than 39
+# our data to only include observations that are unemployed and older than 39
 # years old. You don't need to save this output - just print it in the console. 
 
 
@@ -319,8 +320,8 @@ mutate(acs.data, age.squared = age^2)
 names(acs.data)
 
 # In the space provided below, use the mutate() function to create a variable
-# named log.hhincome with the log value of median household incomes and save
-# this new to our existing acs.data data frame. 
+# named log.hhincome with the log value of household income and save this new
+# variable to our existing acs.data data frame. 
 
 
 
@@ -381,8 +382,8 @@ acs.data$predicted.hhincome <- ols.model$fitted.values
 mean(acs.data$predicted.hhincome)
 
 # R calculates a predicted (or "fitted") value for each observation in our data
-# set. The code above stores this as a new variable in our acs.data frame. We'll 
-# remove this variable for now, however. 
+# set. The code above stores this as a new variable in our acs.data data frame.
+# We'll remove this variable for now, however. 
 
 acs.data <- select(acs.data, -predicted.hhincome)
 
@@ -456,7 +457,7 @@ prediction.30
 
 
 # In the space provided below, calculate the difference between your prediction
-# for 31 year olds and 30 year olds. Using a comment (a line starting with #), 
+# for 31-year-olds and 30-year-olds. Using a comment (a line starting with #), 
 # compare this difference to our regression output. How does this difference
 # compare to the estimated age coefficient? 
 

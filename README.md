@@ -19,7 +19,9 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Regression review
 
 - [Regression Review Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%201.pdf)
-- Coding Activity 2 _(updating)_ <!--relink:[Coding Activity 2](coding-activities/ECON-490-Coding-Activity-2.R)-->
+- [Week 2 In-Class Coding Activity](coding-activities/ECON-490-In-Class-Coding-Activity-Week-2.R)
+  - We'll work through this together in class; nothing to submit
+- [Coding Activity 2](coding-activities/ECON-490-Coding-Activity-2.R)
   - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
 ## Week 3: _Wednesday (9/9)_
