@@ -18,7 +18,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 **Topics:** Regression review
 
-- Regression Review Pt 1 Slides _(updating)_ <!--relink:[Regression Review Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%201.pdf)-->
+- [Regression Review Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%201.pdf)
 - Coding Activity 2 _(updating)_ <!--relink:[Coding Activity 2](coding-activities/ECON-490-Coding-Activity-2.R)-->
   - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
