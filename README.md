@@ -30,7 +30,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 - Regression Review Pt 2 Slides _(updating)_ <!--relink:[Regression Review Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%202.pdf)-->
 - Economics of Housing Introduction Slides _(updating)_ <!--relink:[Economics of Housing Introduction Slides](modules/housing/ECON%20490%20Slides%20-%20Economics%20of%20Housing%20Introduction.pdf)-->
-- The Economic Implications of Housing Supply (Glaeser and Gyourko 2018) _(updating)_ <!--relink:[The Economic Implications of Housing Supply (Glaeser and Gyourko 2018)](modules/housing/The%20Economic%20Implications%20of%20Housing%20Supply%20(Glaeser%20and%20Gyourko%202018).pdf)-->
+- [The Economic Implications of Housing Supply (Glaeser and Gyourko 2018)](modules/housing/The%20Economic%20Implications%20of%20Housing%20Supply%20(Glaeser%20and%20Gyourko%202018).pdf)
   - Assigned reading for next week
 - Coding Activity 3 _(updating)_ <!--relink:[Coding Activity 3](coding-activities/ECON-490-Coding-Activity-3.R)-->
   - Recommended practice for next week; submit via Canvas for feedback (not graded)
@@ -40,7 +40,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Economics of housing (cont.); housing supply constraints and policy
 
 - Glaeser and Gyourko (2018) Paper Slides _(updating)_ <!--relink:[Glaeser and Gyourko (2018) Paper Slides](modules/housing/ECON%20490%20Paper%20Slides%20-%20Glaeser%20and%20Gyourko%20(2018).pdf)-->
-- The Elusive Employment Effect of the Minimum Wage (Manning 2021) _(updating)_ <!--relink:[The Elusive Employment Effect of the Minimum Wage (Manning 2021)](modules/minimum-wages/The%20Elusive%20Employment%20Effect%20of%20the%20Minimum%20Wage%20(Manning%202021).pdf)-->
+- [The Elusive Employment Effect of the Minimum Wage (Manning 2021)](modules/minimum-wages/The%20Elusive%20Employment%20Effect%20of%20the%20Minimum%20Wage%20(Manning%202021).pdf)
   - Assigned reading for next week (you can skip the international section)
 
 ## Week 5: _Wednesday (9/23)_
