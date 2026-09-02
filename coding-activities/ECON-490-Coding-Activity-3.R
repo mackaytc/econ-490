@@ -5,10 +5,9 @@
 # In this activity, we'll review the following: 
 
 #   - Using the tidyverse package for basic data manipulation tasks
-#   - Using the lm() regression function with factor variables
+#   - Using the lm() and lm_robust() regression functions with factors
 
-# NOTE: For this activity, you don't need to complete anything with Swirl. We
-# will pick up Swirl lessons again during Coding Activity 4. 
+# NOTE: For this activity, you don't need to complete anything with Swirl.
 
 # When you're finished with the questions below, save a copy of your code with
 # your name included in the file name and then upload this file to the Canvas
@@ -74,7 +73,7 @@ west.coast <- housing.data %>%
 
 # The filter() statement above says, "Look at the state_name variable and only
 # keep observations that have one of the listed state names." The %in% operator
-# here is a helpful way to filter using a list of attributes like states names. 
+# here is a helpful way to filter using a list of attributes like state names. 
 
 # Our current state_name variable is a character variable (meaning, it stores
 # strings of text). We can check this using the str() function: 
@@ -102,15 +101,15 @@ west.coast <- west.coast %>%
 
 str(west.coast$state.name.factor)
 
-# The str() tells us our new variable is a factor with 3 levels (corresponding
+# str() tells us our new variable is a factor with 3 levels (corresponding
 # to each of the 3 states in our West Coast data set). Variable types are also
 # listed in the "Environment" Pane of RStudio - just click on the icon next to
 # west.coast and take a look at state.name.factor.
 
-# Now, R knows that state_name is a factor variable, meaning that the values
-# in and of themselves are not meaningful. This means that if you try to use
-# a function that requires a numeric input with state_name, such as mean(),
-# you'll get an error.
+# Now, R knows that state.name.factor is a factor variable, meaning that the
+# values in and of themselves are not meaningful. This means that if you try to
+# use a function that requires a numeric input, such as mean(), you'll get a
+# warning and a result of NA.
 
 # We can use the table() function to tabulate observations that take on each 
 # level of our new factor variable:
@@ -130,9 +129,9 @@ is.factor(west.coast$state.name.factor)
 
 lm(zhvi_home_value ~ as.factor(state.name.factor), data = west.coast)
 
-# Because we've already coded state_name as a factor variable, and confirmed
-# this using is.factor(), we don't have to use as.factor(). However, whenever
-# you're including a new variable in a regression, make sure that R
+# Because we've already coded state.name.factor as a factor variable, and
+# confirmed this using is.factor(), we don't have to use as.factor(). However,
+# whenever you're including a new variable in a regression, make sure that R
 # is handling it correctly! When in doubt, use as.factor().
 
 
@@ -142,7 +141,7 @@ lm(zhvi_home_value ~ as.factor(state.name.factor), data = west.coast)
 ################################################################################
 
 # The code below creates a new numeric-formatted binary indicator variable 
-# called post_2014 that is equal to 1 if the year is 2015 or later, and 0 for
+# called post.2014 that is equal to 1 if the year is 2015 or later, and 0 for
 # all earlier years.
 
 west.coast <- mutate(west.coast, 
@@ -157,7 +156,7 @@ str(west.coast$post.2014)
 # outlined above. 
 
 # NOTE: The levels here are now the 0 and 1 values created by ifelse() and our
-# new factor variable labels should be "Yes" (for 1) and "No" (for 0).
+# new factor variable labels should be "No" (for 0) and "Yes" (for 1).
 
 
 
@@ -176,8 +175,8 @@ str(west.coast$post.2014)
 # to pass output from one line to the next as an input to another function. 
 
 # Let's consider a simple example - suppose we wanted to calculate the mean of 
-# of a vector of values, then round this mean to 2 digits. One way of doing 
-# this is the following
+# a vector of values, then round this mean to 2 digits. One way of doing this 
+# is the following:
 
 mean.value <- mean(c(12, 48, 281))
 
@@ -198,7 +197,7 @@ mean.value <- c(12, 48, 281) %>%
 # We start by telling R we want to create an object named mean.value (just
 # like we did above). What is mean.value going to store? 
 
-# Let's breakdown what's happening in each line of the code: 
+# Let's break down what's happening in each line of the code: 
 
 #   - We said above that the job of the %>% operator is to pass objects along
 #       between functions. Here, the object we're starting with is our vector
@@ -225,7 +224,7 @@ mean.value <- c(12, 48, 281) %>%
 ################################################################################
 
 # Let's get some practice working with the %>% operator. One thing to note at 
-# the start - you can use CTRL + SHIFT + M (on windows) as a hot key for %>%. 
+# the start - you can use CTRL + SHIFT + M (on Windows) as a hot key for %>%. 
 
 # In the space provided below, use the select() function to pick out just the
 # zhvi home value column from our west.coast data set. Then, use %>% to send
@@ -235,7 +234,7 @@ mean.value <- c(12, 48, 281) %>%
 
 
 
-# One reason the %>% function is helpful is because it makes data cleaning code
+# One reason the %>% operator is helpful is because it makes data cleaning code
 # clearer by "stacking" operations. Suppose we wanted to return to our original
 # housing.data data set and then subset to only the years 2016 to 2018, and
 # calculate the mean of the zhvi_home_value variable for those years: 
@@ -243,7 +242,7 @@ mean.value <- c(12, 48, 281) %>%
 filter(housing.data, year >= 2016 & year <= 2018) %>% 
   select(zhvi_home_value) %>% 
   summarize(mean.prices = mean(zhvi_home_value))
-  
+
 
 
 # In the space provided below, use the filter() function to pick out rows of 
@@ -311,7 +310,7 @@ library(estimatr)
 # Suppose we run a regression with zhvi_home_value as our outcome variable and
 # state.name.factor as our explanatory variable.
 
-q4.model <- lm_robust(zhvi_home_value ~ state.name.factor, data = west.coast) 
+q4.model <- lm_robust(zhvi_home_value ~ state.name.factor, data = west.coast)
 
 # Remember our "N levels -> N-1 coefficients" rule of thumb. Our state factor
 # variable has 3 levels, so we get two coefficients (N = 3, so N-1 = 2).
@@ -319,9 +318,9 @@ q4.model <- lm_robust(zhvi_home_value ~ state.name.factor, data = west.coast)
 summary(q4.model)
 
 # The lm_robust output gives us similar output as lm(), but we also get 
-# confidence intervals, and its easier to work with output like p-values.  
+# confidence intervals, and it's easier to work with output like p-values.  
 
-# Remember our general statistical significance rule of thumb  - a coefficient
+# Remember our general statistical significance rule of thumb - a coefficient
 # is significant if it has a p-value less than 0.05. It's often easiest to 
 # round p-values to check them: 
 
