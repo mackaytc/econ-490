@@ -13,6 +13,9 @@ Each week, I'll post links for lecture slides and R coding-related material belo
   - In-class activity: get R and RStudio installed and running
 - [Coding Activity 1](coding-activities/ECON-490-Coding-Activity-1.R)
   - Recommended practice for next week; submit via Canvas for feedback (not graded)
+- Useful R resources
+  - [Learning to Speak R](handouts/Learning-to-Speak-R.pdf)
+  - [Introduction to Tidyverse](handouts/Introduction-to-Tidyverse.pdf)
 
 ## Week 2: _Wednesday (9/2)_
 
