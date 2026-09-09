@@ -29,7 +29,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Regression review (cont.); economics of housing
 
 - [Regression Review Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%202.pdf)
-- Economics of Housing Introduction Slides _(updating)_ <!--relink:[Economics of Housing Introduction Slides](modules/housing/ECON%20490%20Slides%20-%20Economics%20of%20Housing%20Introduction.pdf)-->
+- [Economics of Housing Introduction Slides](modules/housing/ECON%20490%20Slides%20-%20Economics%20of%20Housing%20Introduction.pdf)
 - [The Economic Implications of Housing Supply (Glaeser and Gyourko 2018)](modules/housing/The%20Economic%20Implications%20of%20Housing%20Supply%20(Glaeser%20and%20Gyourko%202018).pdf)
   - Assigned reading for next week
 - [Coding Activity 3](coding-activities/ECON-490-Coding-Activity-3.R)
