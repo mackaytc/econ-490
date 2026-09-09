@@ -245,7 +245,7 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 ### ***Week 4*** *(September 16)*
 
 * ***Module:*** Housing (Part 2)
-* ***Topics:*** Housing supply constraints and policy implications; discussion of Glaeser & Gyourko (2018)
+* ***Topics:*** Housing supply constraints and policy implications; discussion of Glaeser & Gyourko (2018); practical data analysis advice (part 1)
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
   * Read *The Elusive Employment Effect of the Minimum Wage* by Manning (2021) by next class; this reading will be covered by the quiz at the start of next week (you can skip the international section)
@@ -266,7 +266,7 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 
 ### ***Week 7*** *(October 7)*
 
-* ***Topics:*** Practical data analysis advice (parts 1 and 2); identifying research questions and locating data
+* ***Topics:*** Practical data analysis advice (parts 2 and 3); identifying research questions and locating data
 * ***Assignments:***
   * Capstone proposal activity completed and submitted in class
   * Capstone research proposal due at the end of this week (Friday, 10/9) to give you time to write up your responses
