@@ -22,7 +22,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Regression review
 
 - [Regression Review Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Regression%20Review%20Pt%201.pdf)
-- [Week 2 In-Class Coding Activity](coding-activities/ECON-490-In-Class-Coding-Activity-Week-2.R)
+- [Week 2 In-Class R Activity](coding-activities/ECON-490-In-Class-R-Activity-Week-2.R)
   - We'll work through this together in class; make sure to show me your code before leaving
 - [Coding Activity 2](coding-activities/ECON-490-Coding-Activity-2.R)
   - Recommended practice for next week; submit via Canvas for feedback (not graded)
@@ -44,6 +44,8 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 - [Glaeser and Gyourko (2018) Paper Slides](modules/housing/ECON%20490%20Paper%20Slides%20-%20Glaeser%20and%20Gyourko%20(2018).pdf)
 - [Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)
+- [Week 4 In-Class R Activity](coding-activities/ECON-490-In-Class-R-Activity-Week-4.R)
+  - We'll work through this together in class; make sure to show me your code before leaving
 - [The Elusive Employment Effect of the Minimum Wage (Manning 2021)](modules/minimum-wages/The%20Elusive%20Employment%20Effect%20of%20the%20Minimum%20Wage%20(Manning%202021).pdf)
   - Assigned reading for next week (you can skip the international section)
 
