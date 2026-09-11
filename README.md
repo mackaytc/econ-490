@@ -43,7 +43,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Economics of housing (cont.); housing supply constraints and policy; practical data analysis tips
 
 - Glaeser and Gyourko (2018) Paper Slides _(updating)_ <!--relink:[Glaeser and Gyourko (2018) Paper Slides](modules/housing/ECON%20490%20Paper%20Slides%20-%20Glaeser%20and%20Gyourko%20(2018).pdf)-->
-- Practical Data Analysis Tips Pt 1 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)-->
+- [Practical Data Analysis Tips Pt 1 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%201.pdf)
 - [The Elusive Employment Effect of the Minimum Wage (Manning 2021)](modules/minimum-wages/The%20Elusive%20Employment%20Effect%20of%20the%20Minimum%20Wage%20(Manning%202021).pdf)
   - Assigned reading for next week (you can skip the international section)
 
