@@ -166,8 +166,7 @@ bedroom.means
 
 
 # Compare the two models. Which coefficient would be easier to explain to
-# someone who's never seen this data? Which model has the higher R-squared?
-# Write a sentence or two in a comment.
+# someone who's never seen this data? Write a sentence or two in a comment.
 
 
 
