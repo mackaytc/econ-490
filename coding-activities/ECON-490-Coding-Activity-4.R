@@ -21,11 +21,11 @@ data.url <- paste0("https://raw.githubusercontent.com/mackaytc/R-resources/",
 
 acs.data <- read_csv(data.url)
 
-# Same cleaning as CA2 -- drop NAs, keep positive income, ages 21-59:
+# Same cleaning as CA2 -- drop NAs, keep positive income, ages 20-60:
 
 acs.data <- drop_na(acs.data) %>%
   filter(hhincome > 0) %>%
-  filter(age > 20 & age < 60)
+  filter(age >= 20 & age <= 60)
 
 
 
