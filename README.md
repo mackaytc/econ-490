@@ -49,7 +49,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 ## Week 5: _Wednesday (9/23)_
 
-**Topics:** Omitted variable bias and causal inference; minimum wages
+**Topics:** Omitted variable bias and causal inference
 
 - [OVB and Causal Inference Slides](slides/ECON%20490%20Metrics%20Slides%20-%20OVB%20and%20Causal%20Inference.pdf)
 
