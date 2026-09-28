@@ -87,10 +87,6 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 - CPS Data Lab (R Code) _(updating)_ <!--relink:[CPS Data Lab (R Code)](coding-activities/ECON-490-Capstone-Lab-1.R)-->
   - We'll work through the CPS data together during class
 - Download the CPS data set and documentation from Canvas before class
-- This is this week's in-class activity, and it's the one activity that can't be dropped
-- Your table, figure, and regression output are submitted before the end of class
-- Coding Activity 4 _(updating)_ <!--relink:[Coding Activity 4](coding-activities/ECON-490-Coding-Activity-4.R)-->
-  - Recommended practice for next week; submit via Canvas for feedback (not graded)
 
 ## Week 9: _Wednesday (10/21)_
 
