@@ -57,11 +57,12 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 **Topics:** Inference basics; minimum wages; capstone project introduction
 
+- [Capstone Project Introduction Slides](slides/ECON%20490%20Slides%20-%20Capstone%20Project%20Introduction.pdf)
+  - This week, we'll introduce the capstone projects and key project requirements
+  - Next week, we'll do an in-class activity evaluating project ideas, so you should start thinking about potential project ideas this week
 - Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
 - Minimum Wages and TWFE (R Code) _(updating)_ <!--relink:[Minimum Wages and TWFE (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20TWFE.R)-->
   - In-class exercise (not a homework assignment)
-- Capstone Project Introduction Slides _(updating)_ <!--relink:[Capstone Project Introduction Slides](slides/ECON%20490%20Slides%20-%20Capstone%20Project%20Introduction.pdf)-->
-  - We introduce the capstone project this week; the proposal activity is in class next week
 
 ## Week 7: _Wednesday (10/7)_
 
