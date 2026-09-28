@@ -66,10 +66,9 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 ## Week 7: _Wednesday (10/7)_
 
-**Topics:** Inference basics; practical data analysis tips (cont.); identifying research questions and locating data
+**Topics:** Inference basics; identifying research questions and locating data
 
 - Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
-- Practical Data Analysis Tips Pt 3 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 3 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%203.pdf)-->
 - Capstone Proposal Activity _(updating)_ <!--relink:[Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)-->
   - In-class brainstorming worksheet for capstone project ideas; this is this week's in-class activity
 - AI Prompt for Capstone Proposal Feedback _(updating)_ <!--relink:[AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)-->
