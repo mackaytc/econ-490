@@ -55,20 +55,20 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 ## Week 6: _Wednesday (9/30)_
 
-**Topics:** Inference basics; minimum wages; capstone project introduction
+**Topics:** Capstone project introduction; practical data analysis tips (cont.); minimum wages
 
 - [Capstone Project Introduction Slides](slides/ECON%20490%20Slides%20-%20Capstone%20Project%20Introduction.pdf)
   - This week, we'll introduce the capstone projects and key project requirements
   - Next week, we'll do an in-class activity evaluating project ideas, so you should start thinking about potential project ideas this week
-- Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
+- [Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)
 - Minimum Wages and TWFE (R Code) _(updating)_ <!--relink:[Minimum Wages and TWFE (R Code)](modules/minimum-wages/ECON%20490%20-%20Minimum%20Wages%20and%20TWFE.R)-->
   - In-class exercise (not a homework assignment)
 
 ## Week 7: _Wednesday (10/7)_
 
-**Topics:** Practical data analysis tips (cont.); identifying research questions and locating data
+**Topics:** Inference basics; practical data analysis tips (cont.); identifying research questions and locating data
 
-- Practical Data Analysis Tips Pt 2 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)-->
+- Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
 - Practical Data Analysis Tips Pt 3 Slides _(updating)_ <!--relink:[Practical Data Analysis Tips Pt 3 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%203.pdf)-->
 - Capstone Proposal Activity _(updating)_ <!--relink:[Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)-->
   - In-class brainstorming worksheet for capstone project ideas; this is this week's in-class activity
