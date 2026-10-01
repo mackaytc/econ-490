@@ -73,7 +73,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
   - In-class brainstorming worksheet for capstone project ideas; this is this week's in-class activity
 - AI Prompt for Capstone Proposal Feedback _(updating)_ <!--relink:[AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)-->
   - Paste your proposal activity responses into an AI chatbot for structured feedback
-- Capstone research proposal due Friday (10/9) at the end of this week
+- Capstone research proposal due before the start of class next week (Wednesday, 10/14)
 
 ## Week 8: _Wednesday (10/14)_
 

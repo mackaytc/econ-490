@@ -103,8 +103,8 @@ The grade breakdown is as follows:
 
 - For the capstone project, you will demonstrate your ability to create new economic knowledge and convey this knowledge in both (1) written form via your capstone paper and (2) orally via a professional, "economics-style" presentation to the class. This project may be completed either individually or working with a partner.
 - You will complete several intermediate assignments throughout the semester as part of completing your capstone paper, each of which will contribute to your final grade. These assignments are listed below along with respective due dates and their contributions to your final grade:
-  - **Research Proposal** due Friday, 10/9 (5% of final grade): You will complete a worksheet summarizing your proposed capstone paper research question and data analysis plan. Proposals must receive my approval before proceeding to subsequent capstone assignments.
-    - You'll work through the proposal activity in class on Wednesday (10/7), and the deadline falls at the end of that week to give you time to write up your responses.
+  - **Research Proposal** due Wednesday, 10/14 before the start of class (5% of final grade): You will complete a worksheet summarizing your proposed capstone paper research question and data analysis plan. Proposals must receive my approval before proceeding to subsequent capstone assignments.
+    - You'll work through the proposal activity in class on Wednesday (10/7), and the deadline falls a week later to give you time to write up your responses.
   - **Capstone Data Lab** completed in class on Wednesday, 10/21 (7.5% of final grade): Using your own data, you will estimate the main specification for your capstone paper and produce a results table and at least one figure. You'll submit your R code, table, and figure before leaving class.
     - The output you produce in the data lab feeds directly into your outline and final paper, so bring your data and any code you've written so far.
     - We'll run through this same pipeline together on Current Population Survey data the week before (Week 8) as an in-class activity, so you'll have already done it once before working with your own data.
@@ -272,13 +272,14 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 * ***Topics:*** Inference basics; identifying research questions and locating data
 * ***Assignments:***
   * Capstone proposal activity completed and submitted in class
-  * Capstone research proposal due at the end of this week (Friday, 10/9) to give you time to write up your responses
+  * Capstone research proposal due before the start of class next week (Wednesday, 10/14) to give you time to write up your responses
 
 ### ***Week 8*** *(October 14)*
 
 * ***Topics:*** Exploring variation with interaction terms; building a working data set with Current Population Survey data
   * We'll work through a complete data analysis together during class as this week's in-class activity. Download the CPS data set and documentation from Canvas before class.
 * ***Assignments:***
+  * Capstone research proposal due **before** the start of class
   * Summary statistics table, figure, and regression output submitted before the end of class
 
 ### ***Week 9*** *(October 21)*
