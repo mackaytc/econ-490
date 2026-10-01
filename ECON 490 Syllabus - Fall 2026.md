@@ -117,7 +117,7 @@ The grade breakdown is as follows:
 ### Coding Activities
 
 - The R coding activities are shorter-format assignments that build the specific R skills you'll need for the capstone labs and your final paper. **These activities are not graded and do not count towards your final grade.** They are, however, strongly recommended.
-- We will complete 4 coding activities over the course of the semester. Each one is posted to Canvas with a due date so you can pace yourself, and you are encouraged to submit your code so that I can review it and give you feedback.
+- We will complete 3 coding activities over the course of the semester. Each one is posted to Canvas with a due date so you can pace yourself, and you are encouraged to submit your code so that I can review it and give you feedback.
   - I will introduce each activity during the class in which it is assigned and highlight any required packages, functions, and data you will need to complete the activity. You should then plan to complete the activity prior to the start of next class.
   - These assignments will make use of R + RStudio. I've posted several options for you to get access to RStudio. You are not required to bring a laptop to lecture although you are encouraged to do so if possible.
   - Each activity will include instructions that clearly detail the requirements and expectations for that activity.
@@ -131,6 +131,7 @@ The grade breakdown is as follows:
 - Weekly activities will take one of three forms: a 1) quiz, a 2) coding-based activity, or a 3) presentation-day activity.
   - The quizzes will be roughly 1-2 pages long and will cover the assigned reading material for the current week and course content from the prior week. The quizzes will feature a mixture of short-answer, multiple choice, and definition-based questions. All quizzes will be completed individually, with no notes or other study materials available.
   - In-class coding activities will be self-contained R coding activities that you will complete and submit in class during the class in which they are assigned. You will be allowed to work with your classmates, but each student must submit their own code file.
+  - Some weeks, we'll complete both a quiz and an in-class coding activity. In those weeks, the two count as a single in-class activity for that week, with credit split 50-50 between the quiz and the coding activity.
   - On the three presentation days (Weeks 11, 14, and 15), the weekly activity is the presentation itself: everyone who uploads their slides before the posted deadline and attends class that night receives full credit for the activity.
   - A detailed answer key will be provided for each weekly activity quiz/R coding activity via Canvas. All submissions will be graded prior to the start of next week.
 - In-class activities must be completed during the class in which they are assigned. There are no late submissions for in-class activities. At the end of the semester, I will drop the lowest in-class activity score for everyone, so students will effectively have one excused absence. Additional policies regarding attendance and excused absences are listed below.
@@ -222,15 +223,17 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 
 * ***Reading:***
   * *Learning to Speak R* – course handout (posted on Canvas)
+  * *Introduction to Tidyverse* – course handout (posted on Canvas)
 * ***Assignments:***
   * In-class activity: get R and RStudio installed and running
   * Coding Activity 1 recommended by the start of next class
 
 ### ***Week 2*** *(September 2)*
 
-* ***Topics:*** Regression review and interpretation (part 1)
+* ***Topics:*** Regression review (part 1)
 * ***Assignments:***
   * Quiz on metrics/related lecture material to start class
+  * In-class R coding activity submitted before the end of class
   * Coding Activity 2 recommended by the start of next class
 
 ### ***Week 3*** *(September 9)*
@@ -248,25 +251,25 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 * ***Topics:*** Housing supply constraints and policy implications; discussion of Glaeser & Gyourko (2018); practical data analysis advice (part 1)
 * ***Assignments:***
   * Quiz on metrics/related lecture material as well as assigned reading to start class
-  * Read *The Elusive Employment Effect of the Minimum Wage* by Manning (2021) by next class; this reading will be covered by the quiz at the start of next week (you can skip the international section)
+  * In-class R coding activity submitted before the end of class
 
 ### ***Week 5*** *(September 23)*
 
-* ***Module:*** Minimum Wages (Part 1)
-* ***Topics:*** Omitted variable bias and causal inference; connecting California's fast food minimum wage to economics research; introduction to minimum wage economics
+* ***Topics:*** Omitted variable bias and causal inference
 * ***Assignments:***
-  * Quiz on metrics/related lecture material as well as assigned reading to start class
+  * Quiz on last week's material (housing and practical data analysis advice) to start class
 
 ### ***Week 6*** *(September 30)*
 
-* ***Module:*** Minimum Wages (Part 2)
-* ***Topics:*** Inference basics; panel data, fixed effects, and two-way fixed effects (TWFE) estimation; capstone project overview
+* ***Module:*** Housing (Part 3)
+* ***Topics:*** Capstone project introduction; practical data analysis advice (part 2); housing markets and fixed effects
 * ***Assignments:***
   * Quiz on metrics/related lecture material to start class
+  * In-class R coding activity on housing markets and fixed effects submitted before the end of class
 
 ### ***Week 7*** *(October 7)*
 
-* ***Topics:*** Practical data analysis advice (parts 2 and 3); identifying research questions and locating data
+* ***Topics:*** Inference basics; identifying research questions and locating data
 * ***Assignments:***
   * Capstone proposal activity completed and submitted in class
   * Capstone research proposal due at the end of this week (Friday, 10/9) to give you time to write up your responses
@@ -277,11 +280,10 @@ I reserve the right to alter any information, assignments, grading criteria, dea
   * We'll work through a complete data analysis together during class as this week's in-class activity. Download the CPS data set and documentation from Canvas before class.
 * ***Assignments:***
   * Summary statistics table, figure, and regression output submitted before the end of class
-  * Coding Activity 4 recommended by the start of next class
 
 ### ***Week 9*** *(October 21)*
 
-* ***Topics:*** Capstone Data Lab. Estimating your main specification
+* ***Topics:*** Capstone Data Lab. Estimating your main specification; interpreting regression output
   * You'll run the Week 8 pipeline on your own data and produce the table and figure you'll use in your outline and final paper. Bring your data file and any code you've written so far.
 * ***Assignments:***
   * Results table and figure submitted before the end of class
