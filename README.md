@@ -55,20 +55,21 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 ## Week 6: _Wednesday (9/30)_
 
-**Topics:** Capstone project introduction; practical data analysis tips (cont.); housing markets and fixed effects
+**Topics:** Capstone project introduction; housing markets and fixed effects
 
 - [Capstone Project Introduction Slides](slides/ECON%20490%20Slides%20-%20Capstone%20Project%20Introduction.pdf)
   - This week, we'll introduce the capstone projects and key project requirements
   - Next week, we'll do an in-class activity evaluating project ideas, so you should start thinking about potential project ideas this week
-- [Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)
 - [Housing Markets and Fixed Effects (R Code)](modules/housing/ECON%20490%20-%20Housing%20Markets%20and%20Fixed%20Effects.R)
   - In-class exercise (not a homework assignment)
 
 ## Week 7: _Wednesday (10/7)_
 
-**Topics:** Inference basics; identifying research questions and locating data
+**Topics:** Practical data analysis tips (cont.); exploring variation with interaction terms; identifying research questions and locating data
 
-- Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
+- [Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)
+- Using Interaction Terms Slides _(updating)_ <!--relink:[Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)-->
+  - Interactions in regressions are an easy way to implement the concept of exploring variation
 - Capstone Proposal Activity _(updating)_ <!--relink:[Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)-->
   - In-class brainstorming worksheet for capstone project ideas; this is this week's in-class activity
 - AI Prompt for Capstone Proposal Feedback _(updating)_ <!--relink:[AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)-->
@@ -77,10 +78,9 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 ## Week 8: _Wednesday (10/14)_
 
-**Topics:** Exploring variation with interaction terms; building a working data set with CPS data
+**Topics:** Inference basics; building a working data set with CPS data
 
-- Using Interaction Terms Slides _(updating)_ <!--relink:[Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)-->
-  - Interactions in regressions are an easy way to implement the concept of exploring variation
+- Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
 - CPS Data Lab Handout _(updating)_ <!--relink:[CPS Data Lab Handout](handouts/ECON-490-Capstone-Lab-1.md)-->
   - Instructions, output formatting rules, and the submission checklist
 - CPS Data Lab (R Code) _(updating)_ <!--relink:[CPS Data Lab (R Code)](coding-activities/ECON-490-Capstone-Lab-1.R)-->

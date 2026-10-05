@@ -262,21 +262,21 @@ I reserve the right to alter any information, assignments, grading criteria, dea
 ### ***Week 6*** *(September 30)*
 
 * ***Module:*** Housing (Part 3)
-* ***Topics:*** Capstone project introduction; practical data analysis advice (part 2); housing markets and fixed effects
+* ***Topics:*** Capstone project introduction; housing markets and fixed effects
 * ***Assignments:***
   * Quiz on metrics/related lecture material to start class
   * In-class R coding activity on housing markets and fixed effects submitted before the end of class
 
 ### ***Week 7*** *(October 7)*
 
-* ***Topics:*** Inference basics; identifying research questions and locating data
+* ***Topics:*** Practical data analysis advice (part 2); exploring variation with interaction terms; identifying research questions and locating data
 * ***Assignments:***
   * Capstone proposal activity completed and submitted in class
   * Capstone research proposal due before the start of class next week (Wednesday, 10/14) to give you time to write up your responses
 
 ### ***Week 8*** *(October 14)*
 
-* ***Topics:*** Exploring variation with interaction terms; building a working data set with Current Population Survey data
+* ***Topics:*** Inference basics; building a working data set with Current Population Survey data
   * We'll work through a complete data analysis together during class as this week's in-class activity. Download the CPS data set and documentation from Canvas before class.
 * ***Assignments:***
   * Capstone research proposal due **before** the start of class
