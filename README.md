@@ -69,12 +69,12 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 - [Practical Data Analysis Tips Pt 2 Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Practical%20Data%20Analysis%20Tips%20Pt%202.pdf)
 - [Using Interaction Terms Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Using%20Interaction%20Terms.pdf)
-- [Exploring Variation](exploring-variation/README.md)
-  - This page provides several methods for applying the idea of exploring variation with R code examples
 - Capstone Proposal Activity _(updating)_ <!--relink:[Capstone Proposal Activity](handouts/ECON%20490%20-%20Capstone%20Proposal%20Activity.pdf)-->
   - In-class brainstorming worksheet for capstone project ideas; this is this week's in-class activity
   - AI Prompt for Capstone Proposal Feedback _(updating)_ <!--relink:[AI Prompt for Capstone Proposal Feedback](handouts/ECON%20490%20-%20AI%20Prompt%20for%20Capstone%20Proposal.txt)-->
 - Capstone research proposal due before the start of class next week (Wednesday, 10/14)
+  - For help on your proposals, see [this page](exploring-variation/README.md) for several methods of applying the idea of exploring variation
+  - For ideas on potential data sets, see the Capstone Data Resources page on Canvas (link on the bottom of the course homepage)
 
 ## Week 8: _Wednesday (10/14)_
 
