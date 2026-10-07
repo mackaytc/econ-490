@@ -1,4 +1,4 @@
-I'm an undergraduate economics student working on a capstone research project. I need feedback on whether my project idea is viable. My project will use OLS regression in R (using tidyverse and the estimatr package). I'll be doing correlation analysis — not causal inference.
+I'm an undergraduate economics student working on a capstone research project. I need feedback on whether my project idea is viable. My project will use OLS regression in R (using tidyverse and lm()). I'll be doing correlation analysis — not causal inference.
 
 The project requires a "two-stage" analysis. (Note: "two-stage" here refers to two parts of the analysis, not two-stage least squares.)
 - Stage 1: A baseline regression (or set of regressions) estimating either (a) a core relationship between two variables, or (b) how the level of one economic variable varies as a function of several others (e.g., "What factors drive home prices across CA counties?").
