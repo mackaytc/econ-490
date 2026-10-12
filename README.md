@@ -81,9 +81,9 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Inference basics; building a working data set with CPS data
 
 - Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
-- CPS Data Lab Handout _(updating)_ <!--relink:[CPS Data Lab Handout](handouts/ECON-490-Capstone-Lab-1.md)-->
+- CPS Data Lab Handout _(updating)_ <!--relink:[CPS Data Lab Handout](handouts/ECON-490-Guided-Data-Lab.md)-->
   - Instructions, output formatting rules, and the submission checklist
-- CPS Data Lab (R Code) _(updating)_ <!--relink:[CPS Data Lab (R Code)](coding-activities/ECON-490-Capstone-Lab-1.R)-->
+- CPS Data Lab (R Code) _(updating)_ <!--relink:[CPS Data Lab (R Code)](coding-activities/ECON-490-Guided-Data-Lab.R)-->
   - We'll work through the CPS data together during class
 - Download the CPS data set and documentation from Canvas before class
 
@@ -91,9 +91,9 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 **Topics:** Estimating your main specification; interpreting regression output
 
-- Capstone Data Lab Handout _(updating)_ <!--relink:[Capstone Data Lab Handout](handouts/ECON-490-Capstone-Lab-2.md)-->
+- Capstone Data Lab Handout _(updating)_ <!--relink:[Capstone Data Lab Handout](handouts/ECON-490-Capstone-Data-Lab.md)-->
   - Instructions, the three-column regression table, and the submission checklist
-- Capstone Data Lab (R Code) _(updating)_ <!--relink:[Capstone Data Lab (R Code)](coding-activities/ECON-490-Capstone-Lab-2.R)-->
+- Capstone Data Lab (R Code) _(updating)_ <!--relink:[Capstone Data Lab (R Code)](coding-activities/ECON-490-Capstone-Data-Lab.R)-->
   - Bring your own data and any code you've written so far
   - You'll run the same pipeline you worked through on CPS data in Week 8
 - Your results table and figure are submitted before the end of class
