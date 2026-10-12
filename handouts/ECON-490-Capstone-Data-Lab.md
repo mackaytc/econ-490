@@ -1,4 +1,4 @@
-# ECON 490 Capstone Lab Activity 2
+# ECON 490 Capstone Data Lab
 
 ## Estimating Your Specification
 
@@ -83,7 +83,7 @@ Standard errors go in parentheses under each coefficient.
 
 Now watch the coefficient move across the columns. In the example above it drops from 0.207 to 0.177 once education enters. Education was doing work that the first two models credited to the main variable.
 
-That movement is omitted variable bias. You saw it on a slide in Week 4. Tonight you see it in your own data.
+That movement is omitted variable bias. You saw it on a slide in Week 5. Tonight you see it in your own data.
 
 If your coefficient barely moves, say so. That is a result too. It means your controls were not absorbing much.
 
@@ -114,7 +114,7 @@ Question 4 is the one that makes your paper honest. Every capstone has an omitte
 
 ## Finished Early?
 
-Add a fourth model with an interaction term. Test whether your relationship differs across groups. You built these in Coding Activity 4.
+Add a fourth model with an interaction term. Test whether your relationship differs across groups. We covered these in the Week 7 slides on interaction terms.
 
 ```r
 model.4 <- lm_robust(my.outcome ~ my.x * my.group + age + sex, data = my.sample)

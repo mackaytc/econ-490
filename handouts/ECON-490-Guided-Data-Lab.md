@@ -1,4 +1,4 @@
-# ECON 490 Capstone Lab Activity 1
+# ECON 490 Guided Data Lab
 
 ## Building a Working Data Set
 

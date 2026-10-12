@@ -1,5 +1,5 @@
 ################################################################################
-# ECON 490 Capstone Lab Activity 2: Estimating Your Specification
+# ECON 490 Capstone Data Lab: Estimating Your Specification
 ################################################################################
 #
 # Last week you ran the full pipeline on the CPS data. Tonight you run it on
@@ -252,7 +252,8 @@ library(broom)
 ################################################################################
 
 # Finish early? Add a fourth model with an interaction term. This tests whether
-# your relationship differs across groups. You built these in Coding Activity 4.
+# your relationship differs across groups. We covered these in the Week 7
+# slides on interaction terms.
 
 # model.4 <- lm_robust(my.outcome ~ my.x * my.group + age + sex,
 #                      data = my.sample)
@@ -270,5 +271,5 @@ library(broom)
 #   2. A Word document holding your summary statistics table, your three-column
 #      regression table, and your figure
 #
-# Format everything following the Lab 2 handout. Your regression table has one
+# Format everything following the handout. Your regression table has one
 # column per model. Your reader should see the coefficient move across columns.

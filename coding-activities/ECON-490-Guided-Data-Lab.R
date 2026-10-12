@@ -1,5 +1,5 @@
 ################################################################################
-# ECON 490 Capstone Lab Activity 1: Building a Working Data Set
+# ECON 490 Guided Data Lab: Building a Working Data Set
 ################################################################################
 #
 # Tonight we'll walk through the full pipeline that turns a raw data file into
@@ -91,8 +91,8 @@ table(cps.data$poverty.status, useNA = "ifany")
 # and some observations are missing (NA).
 #
 # We can't take the average of a "Yes"/"No" variable. So we convert it into a
-# 0/1 indicator using mutate() and ifelse(), the same way you built the college
-# indicator in Coding Activity 4:
+# 0/1 indicator using mutate() and ifelse(), the same way you built the
+# working.renter indicator in Coding Activity 2:
 
 cps.data <- cps.data %>%
   mutate(in.poverty = ifelse(poverty.status == "Yes", 1, 0))
@@ -268,7 +268,7 @@ write_csv(tidy(poverty.model), "regression-output.csv")
 #
 #   1. This .R file, with your answers filled in and your name in the file name
 #   2. A Word document containing your summary statistics table, your figure,
-#      and your regression results, formatted following the Lab 1 handout
+#      and your regression results, formatted following the handout
 #
 # The handout covers how to get output out of R and into Word so that it looks
 # like something you'd be willing to hand to a reader.
