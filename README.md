@@ -80,12 +80,12 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 
 **Topics:** Inference basics; data lab exploring public health data
 
-- Inference Basics Slides _(updating)_ <!--relink:[Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)-->
-- Data Lab: Doctors and Flu Shots (R Code) _(updating)_ <!--relink:[Data Lab: Doctors and Flu Shots (R Code)](coding-activities/data-lab-activity/ECON-490-Data-Lab-Activity.R)-->
+- [Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)
+- [Data Lab GitHub Page](coding-activities/data-lab-activity)
+  - The R code and data documentation are available at this link
   - We'll work through the lab together during class
-  - The R script downloads the data for you
-- Data Lab Data and Documentation _(updating)_ <!--relink:[Data Lab Data and Documentation](coding-activities/data-lab-activity)-->
-  - Data sources and variable definitions for the county health data
+- [Capstone Sample Tables](handouts/ECON%20490%20Capstone%20-%20Sample%20Tables.docx)
+  - Sample tables that you can use to create your own regression output tables
 - Submit your R code and a Word document with your plot and tables to Canvas before the end of class
 
 ## Week 9: _Wednesday (10/21)_
