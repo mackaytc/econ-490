@@ -81,7 +81,7 @@ Each week, I'll post links for lecture slides and R coding-related material belo
 **Topics:** Inference basics; data lab exploring public health data
 
 - [Inference Basics Slides](slides/ECON%20490%20Metrics%20Slides%20-%20Inference%20Basics.pdf)
-- [Data Lab GitHub Page](coding-activities/data-lab-activity)
+- [Data lab resources](coding-activities/data-lab-activity)
   - The R code and data documentation are available at this link
   - We'll work through the lab together during class
 - [Capstone Sample Tables](handouts/ECON%20490%20Capstone%20-%20Sample%20Tables.docx)
