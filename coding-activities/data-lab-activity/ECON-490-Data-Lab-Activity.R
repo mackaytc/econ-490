@@ -4,19 +4,19 @@
 
 # In this lab, you'll use county data to answer the following questions: Do
 # counties with more primary care doctors have higher flu shot rates? Is this
-# relationship also different in rural and urban counties?
+# relationship different in rural vs. urban counties?
 
-# You will make four outputs:
+# You will produce four data analysis outputs:
 
-#   - A graph showing the distribution of your variables
-#   - A summary statistics table
-#   - A basic regression table showing the first stage of your results
-#   - A second regression table showing results using an interaction term
+#   1) A graph showing the distribution of your variables
+#   2) A summary statistics table
+#   3) A basic regression table showing the first stage of your results
+#   4) A second regression table showing results using an interaction term
 
-# SUBMISSION: Submit two files to Canvas before the end of class:
+# SUBMISSION: You should submit two files to Canvas before the end of class:
 
-#   1. This R script with your completed code. Put your name in the file name.
-#   2. A Word document with your plot and neatly formatted tables.
+#   1) This R script with your completed code. 
+#   2) A Word document with your graph and neatly formatted tables.
 
 # The README file in the data-lab-activity folder on GitHub describes each
 # variable in the data.
@@ -28,7 +28,8 @@
 ################################################################################
 
 # We'll use three packages. The estimatr package lets us use lm_robust(). The
-# broom package gives us tidy(), which puts regression output in a table.
+# broom package gives us tidy(), which puts regression output in a table format
+# that is easier to work with and export.
 
 # If you have not installed these packages, uncomment the lines below and run
 # both lines of code:
@@ -70,8 +71,8 @@ table(county.data$area)
 # show a scatter plot of doctors per 10,000 people and flu shot rates, with
 # rural and urban counties in different colors.
 
-# Nine small counties have more than 25 doctors per 10,000 people. We'll use
-# coord_cartesian() to hide them, but the fitted lines still use them.
+# NOTE: Nine small counties have more than 25 doctors per 10,000 people. We'll
+# use coord_cartesian() to hide them, but the fitted lines still use them.
 
 # GOAL: In labs(), replace the text in capital letters with axis labels in plain
 # English. Do not use R variable names.
@@ -92,7 +93,7 @@ flu.plot
 ggsave("flu-shot-plot.png", flu.plot, width = 7, height = 4.5)
 
 # NEXT STEPS: Copy the plot into your Word document. Make sure to include a
-# title.
+# descriptive title.
 
 
 
@@ -104,8 +105,9 @@ ggsave("flu-shot-plot.png", flu.plot, width = 7, height = 4.5)
 # analysis. We'll construct a summary statistics table that compares the average
 # rural county with the average urban county. 
 
-# GOAL: In the code below, n() counts the counties in each group. Add two more
-# lines to summarize(): the mean of pct.65.older and the mean of median.income.
+# GOAL: In the code below, n() counts the counties in each group. You should add
+# two more lines to the summarize() function to calculate the mean of
+# pct.65.older and the mean of median.income.
 
 summary.table <- county.data %>%
   group_by(area) %>%
@@ -130,19 +132,18 @@ summary.table
 
 model.1 <- lm_robust(flu.shot.rate ~ doctors.per.10k, data = county.data)
 
-# Remember that each row of our data is a county. This means that we can use
-# state fixed effects to control for average differences across states (e.g.,
-# state public health programs or rules about which pharmacists can give flu
-# shots).
+# Remember that each row of our data is a county. This means we can use state
+# fixed effects to control for average differences across states (e.g., average
+# differences in spending on public health initiatives). 
 
 # GOAL: Run a new regression using the formula above, adding factor(state) as a
 # control/explanatory variable. Save the regression as model.2 using "<-". 
 
 
 
-# The tidy() function puts the output in a table. We can use filter() to keep 
-# only the output we're interested in. In this case, we don't need to print all 
-# the state FEs because our focus is on the doctors variable. 
+# The tidy() function puts our regression output into a table format. We can use
+# filter() to keep only the output we're interested in. In this case, we don't
+# need to print all the state FEs because our focus is on the doctors variable.
 
 tidy(model.1) %>%
   filter(term == "doctors.per.10k") %>%
@@ -155,13 +156,15 @@ tidy(model.2) %>%
   filter(term == "doctors.per.10k") %>%
   select(term, estimate, std.error, p.value)
 
-# Make a Word table with one column for each model:
+# GOAL: Take a look at the sample regression tables to get a sense of how to
+# generate regression output tables. Then, make a Word table with one column for
+# each regression model:
 
 #   - Show each coefficient. Put the standard error in parentheses below it.
 #   - Add a "State controls" row. Write "No" for model.1 and "Yes" for model.2.
 #   - Add a row for the number of counties. Run model.1$nobs to get it.
-#   - Do not show the state coefficients. Put this note below the table:
-#     "Column 2 includes a control for each state (not shown)."
+#   - Do not show the state coefficients. As part of your notes for the table, 
+#       include the following: "Column 2 includes a control for each state."
 
 
 
@@ -194,11 +197,11 @@ tidy(model.3) %>%
 # Before You Submit
 ################################################################################
 
-# Check your Word document:
-#   - The plot has a title, plain-English axis labels, and a source note.
-#   - Each table has a title and a note.
-#   - The tables use plain English. They do not use R variable names.
-#   - The numbers have three decimal places or fewer.
+# Check your Word document to make sure you have each of the following: 
+#   - A title, plain-English axis labels, and a source note for your graph.
+#   - A title and a note for each table.
+#   - Plain-English variable names everywhere (no R variable names).
+#   - Numbers rounded to fewer decimals or fewer.
 
 # Then submit your Word document and this R script to Canvas.
 
