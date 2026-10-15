@@ -201,7 +201,7 @@ tidy(model.3) %>%
 #   - A title, plain-English axis labels, and a source note for your graph.
 #   - A title and a note for each table.
 #   - Plain-English variable names everywhere (no R variable names).
-#   - Numbers rounded to fewer decimals or fewer.
+#   - Numbers rounded to 3 decimals or fewer.
 
 # Then submit your Word document and this R script to Canvas.
 
