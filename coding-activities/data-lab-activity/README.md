@@ -1,12 +1,12 @@
 # ECON 490 Data Lab: County Health Data
 
-This folder has the data and the R script for the data lab. The goal of the data lab is to produce neatly formatted data analysis output. This will prepare you for producing your capstone outlines and final papers. The exact requirements for your submissions are described in the R script. You can find an example of what your submission should look like in `Sample-Data-Analysis-Output.docx`, available above (click download to view/edit in Word).
+This folder has the data and the R script for the data lab. The goal of the data lab is to produce neatly formatted data analysis output. This will prepare you for producing your capstone outlines and final papers. The exact requirements for your submissions are described in the R script. You can find an example of what your submission should look like in `Data-Analysis-Output-Example.docx`, available above (click download to view/edit in Word).
 
 | File | Description |
 |---|---|
 | `ECON-490-Data-Lab-Activity.R` | R script for the lab activity with submission guidelines. |
 | `ECON-490-county-health-data.csv` | County-level data set we'll analyze using the R script above. |
-| `Sample-Data-Analysis-Output.docx` | Sample file displaying neatly formatted graphs and tables. |
+| `Data-Analysis-Output-Example.docx` | Example file displaying neatly formatted graphs and tables. |
 
 ## Data Source
 
